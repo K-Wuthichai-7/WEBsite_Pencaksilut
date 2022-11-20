@@ -102,3 +102,14 @@ width: 80%;
 
 }
 
+svg{
+  width: 40px;
+  height: 40px;
+  margin: 0 10px 6px ;
+  color: #fff;
+}
+
+.icon{
+  margin-right: 15px;
+  margin-top: 15px;
+}
