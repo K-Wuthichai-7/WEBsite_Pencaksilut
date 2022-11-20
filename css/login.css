@@ -1,0 +1,104 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149001605.jpg?w=996&t=st=1668786492~exp=1668787092~hmac=7ae872b1515a2677f19b1e6a00bcfaab5c3adf8363998e4d46d9a50309a5a765");
+  
+ 
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: left;
+  
+}
+
+p{
+  color: #fff;
+}
+
+.card{
+  z-index: 999999999999;
+ 
+}
+
+
+.card-1 {
+  
+  background: #f4f4f4;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-1 h2 {
+  z-index: -1;
+  color: white;
+  font-size: 2em;
+}
+
+.card-1::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 170%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+  z-index: -11111111111111;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-1::after {
+  content: '';
+  position: absolute;
+  background: #141212;
+  z-index: -2;
+  inset: 5px;
+  border-radius: 15px;
+}  
+
+.row{
+  padding: 10px;
+}
+
+form{
+width: 80%;
+
+}
+
