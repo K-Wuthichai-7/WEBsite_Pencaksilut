@@ -75,12 +75,14 @@ if (!isset($_SESSION['user_login'])) {
                             <li class="nav-item active"><a class="nav-link" href="./home.php">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
+                                ><?php echo $row['firstname'] . ' ' . $row['lastname'] ?></a>
+                                
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="#!">Action</a>
                                     <a class="dropdown-item" href="#!">Another action</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                    <a class="dropdown-item" href="logout.php">ออกจากระบบ</a>
                                 </div>
                             </li>
                         </ul>
@@ -116,6 +118,20 @@ if (!isset($_SESSION['user_login'])) {
             </div>
         </div>
     </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
