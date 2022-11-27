@@ -45,9 +45,9 @@ if (!isset($_SESSION['user_login'])) {
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part1.php">ตอนที่ 1</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part4.php">ตอนที่ 4</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part2.php">ตอนที่ 2</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part3.php">ตอนที่ 3</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part4.php">ตอนที่ 4</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 5</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 6</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 7</a>
@@ -75,10 +75,10 @@ if (!isset($_SESSION['user_login'])) {
                             <li class="nav-item active"><a class="nav-link" href="./home.php">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
                             <li class="nav-item dropdown">
-                                <button  class="btn btn-secondary dropdown-toggle" class="nav-link " id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <svg  xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <button class="btn btn-secondary dropdown-toggle" class="nav-link " id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-                                    </svg>   <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></button>
+                                    </svg> <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></button>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
@@ -93,30 +93,19 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <div class="container-fluid">
                 <h1 class="mt-4 text-center">สื่อการสอน ท่ารำบุคคลเดี่ยว ปันจักสีลัต</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-                <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked.
-                </p>
+
+                <h5>Jurus Tunggal เป็นรูปแบบ Pencak Silat ที่ได้รับการยอมรับในระดับสากลซึ่งประกอบด้วย 100 กระบวนท่าการเคลื่อนไหวโดยแบ่งออกเป็น 14 ชุดหรือ Jurus ซึ่งจะแบ่งออกเป็น 3 ส่วน ได้แก่
+                    1. หมวดมือเปล่า มีทั้งหมด 50 กระบวนท่า
+                    2. หมวดโกลกหรือมีด มีทั้งหมด 25 กระบวนท่า
+                    และ 3.หมวดโทยะหรือไม้กระบอง มีทั้งหมด 25 กระบวนท่า
+                    รวมการเคลื่อนไหวทั้งหมด 100 กระบวนท่า ซึ่งจะต้องแสดงให้เสร็จสิ้นภายใน 3 นาที นักกีฬาจะถูกตัดสินจากคุณภาพของการเคลื่อนไหวและความถูกต้องของการเคลื่อนไหวตามกระบวนท่า โดยคะแนนจะถูกหักสำหรับเทคนิคที่ไม่ถูกต้อง, การแต่งกายที่ไม่เหมาะสม, ใช้เวลาน้อยกว่าหรือเกินกว่า 3 นาที, การวางอาวุธที่ผิดตำแหน่งต่างๆในท่ารำ, การแสดงท่าอื่นๆที่ไม่ได้อยู่ในท่ารำหรือออกนอกขอบเขตของกระบวนท่า เป็นต้น
+                </h5>
 
 
 
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col-md-6">
-                        <div class="ratio ratio-16x9 ">
-                            <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col"></div>
-                </div>
 
             </div>
+
         </div>
     </div>
 
