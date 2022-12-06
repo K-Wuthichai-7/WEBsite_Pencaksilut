@@ -9,7 +9,6 @@ if (!isset($_SESSION['user_login'])) {
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +27,6 @@ if (!isset($_SESSION['user_login'])) {
 
 <body>
     <div class="d-flex" id="wrapper">
-
         <?php
 
         if (isset($_SESSION['user_login'])) {
@@ -41,7 +39,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center ">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -94,16 +92,11 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <div class="container-fluid">
                 <h1 class="mt-4 text-center">Simple 4</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger scre
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                </p>
+                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
 
                 <div class="row">
                     <div class="col"></div>
-                    <div class="col-lg-5"><img src="../img/4.jpg" class="img-thumbnail" alt="#"></div>
+                    <div class="col-lg-5"><img src="../img/2.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
@@ -132,6 +125,19 @@ if (!isset($_SESSION['user_login'])) {
             </div>
         </div>
     </div>
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-end">
+            <li class="page-item ">
+                <a class="page-link" href="../intro/part3.php" tabindex="-1" >Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part5.php">5</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part6.php">6</a></li>
+            <li class="page-item">
+                <a class="page-link" href="../intro/part5.php">Next</a>
+            </li>
+        </ul>
+    </nav>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

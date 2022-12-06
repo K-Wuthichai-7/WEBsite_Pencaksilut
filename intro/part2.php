@@ -93,13 +93,13 @@ if (!isset($_SESSION['user_login'])) {
             <div class="container-fluid">
                 <h1 class="mt-4 text-center">Simple 2</h1>
                 <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-                
+
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/2.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
-            
+
                 <p>
                     Make sure to keep all page content within the
                     <code>#page-content-wrapper</code>
@@ -108,7 +108,7 @@ if (!isset($_SESSION['user_login'])) {
                     ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
                 </p>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
@@ -125,6 +125,19 @@ if (!isset($_SESSION['user_login'])) {
             </div>
         </div>
     </div>
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-end">
+            <li class="page-item ">
+                <a class="page-link" href="../intro/part1.php" tabindex="-1" >Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part3.php">3</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part4.php">4</a></li>
+            <li class="page-item">
+                <a class="page-link" href="../intro/part3.php">Next</a>
+            </li>
+        </ul>
+    </nav>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

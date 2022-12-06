@@ -105,7 +105,7 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col-lg-5"><img src="../img/1.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
-            
+
                 <p>
                     Make sure to keep all page content within the
                     <code>#page-content-wrapper</code>
@@ -113,7 +113,7 @@ if (!isset($_SESSION['user_login'])) {
                     <code>#sidebarToggle</code>
                     ID which will toggle the menu when clicked. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, accusantium, maxime quis culpa aliquid obcaecati, mollitia error at labore vel sunt? Animi obcaecati mollitia tempore ipsum! Minima excepturi facere, consequuntur, tenetur dolor eius repudiandae sunt voluptatem dignissimos optio illo est voluptates similique rem nemo autem ex fugiat eum? Esse obcaecati fuga ipsa laudantium alias amet aspernatur inventore dicta totam minima! Hic temporibus, obcaecati molestias molestiae provident ipsa doloribus unde, voluptatibus quo sequi quod inventore rerum, amet reprehenderit porro non enim. Consequatur ullam ex ipsam quisquam, harum obcaecati. Dolor dolores qui corrupti iste, amet ratione facilis praesentium possimus rem ex similique.
                 </p>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
@@ -132,6 +132,19 @@ if (!isset($_SESSION['user_login'])) {
             </div>
         </div>
     </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item ">
+                <a class="page-link" href="../user.php" tabindex="-1" >Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part2.php">2</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part3.php">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="../intro/part2.php">Next</a>
+            </li>
+        </ul>
+    </nav>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

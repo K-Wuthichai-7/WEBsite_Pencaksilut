@@ -91,7 +91,7 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 3</h1>
+                <h1 class="mt-4 text-center">Simple 8</h1>
                 <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
 
                 <div class="row">
@@ -128,13 +128,13 @@ if (!isset($_SESSION['user_login'])) {
     <nav aria-label="Page navigation example ">
         <ul class="pagination justify-content-end">
             <li class="page-item ">
-                <a class="page-link" href="../intro/part2.php" tabindex="-1" >Previous</a>
+                <a class="page-link" href="../intro/part7.php" tabindex="-1" >Previous</a>
             </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part4.php">4</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part5.php">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">8</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part9.php">9</a></li>
+            <li class="page-item"><a class="page-link" href="../intro/part10.php">10</a></li>
             <li class="page-item">
-                <a class="page-link" href="../intro/part4.php">Next</a>
+                <a class="page-link" href="../intro/part9.php">Next</a>
             </li>
         </ul>
     </nav>
