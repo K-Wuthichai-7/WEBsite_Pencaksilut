@@ -106,7 +106,7 @@ if (!isset($_SESSION['user_login'])) {
                     The top navbar is optional, and just for demonstration. Just create an element with the
                     <code>#sidebarToggle</code>
                     ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. ndis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
                 </p>
 
                 <div class="container">
@@ -134,7 +134,7 @@ if (!isset($_SESSION['user_login'])) {
             <li class="page-item"><a class="page-link" href="../intro/part13.php">13</a></li>
             <li class="page-item"><a class="page-link" href="#">14</a></li>
             <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true" >Next</a>
+                <a class="page-link" href="#" tabindex="-1"  aria-disabled="true" >Next</a>
             </li>
         </ul>
     </nav>
