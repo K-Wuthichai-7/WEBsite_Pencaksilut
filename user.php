@@ -48,15 +48,16 @@ if (!isset($_SESSION['user_login'])) {
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part2.php">ตอนที่ 2</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part3.php">ตอนที่ 3</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 14</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part5.php">ตอนที่ 5</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part6.php">ตอนที่ 6</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part7.php">ตอนที่ 7</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part8.php">ตอนที่ 8</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part9.php">ตอนที่ 9</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part10.php">ตอนที่ 10</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part11.php">ตอนที่ 11</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part12.php">ตอนที่ 12</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part13.php">ตอนที่ 13</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="intro/part14.php">ตอนที่ 14</a>
 
             </div>
         </div>

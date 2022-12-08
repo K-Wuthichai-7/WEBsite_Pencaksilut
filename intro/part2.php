@@ -41,21 +41,21 @@ if (!isset($_SESSION['user_login'])) {
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 14</a>
-
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part5.php">ตอนที่ 5</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part6.php">ตอนที่ 6</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part7.php">ตอนที่ 7</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part8.php">ตอนที่ 8</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part9.php">ตอนที่ 9</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part10.php">ตอนที่ 10</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part11.php">ตอนที่ 11</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
             </div>
         </div>
         <!-- Page content wrapper-->
@@ -81,7 +81,7 @@ if (!isset($_SESSION['user_login'])) {
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="home.php">ออกจากระบบ</a>
+                                    <a class="dropdown-item" href="../home.php">ออกจากระบบ</a>
                                 </div>
                             </li>
                         </ul>

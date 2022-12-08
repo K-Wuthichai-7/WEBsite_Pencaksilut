@@ -46,15 +46,16 @@ if (!isset($_SESSION['user_login'])) {
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">ตอนที่ 14</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part5.php">ตอนที่ 5</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part6.php">ตอนที่ 6</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part7.php">ตอนที่ 7</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part8.php">ตอนที่ 8</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part9.php">ตอนที่ 9</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part10.php">ตอนที่ 10</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part11.php">ตอนที่ 11</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
 
             </div>
         </div>
@@ -81,7 +82,7 @@ if (!isset($_SESSION['user_login'])) {
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="home.php">ออกจากระบบ</a>
+                                    <a class="dropdown-item" href="../home.php">ออกจากระบบ</a>
                                 </div>
                             </li>
                         </ul>
@@ -96,7 +97,7 @@ if (!isset($_SESSION['user_login'])) {
 
                 <div class="row">
                     <div class="col"></div>
-                    <div class="col-lg-5"><img src="../img/2.jpg" class="img-thumbnail" alt="#"></div>
+                    <div class="col-lg-5"><img src="../img/11.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
@@ -128,7 +129,7 @@ if (!isset($_SESSION['user_login'])) {
     <nav aria-label="Page navigation example ">
         <ul class="pagination justify-content-end">
             <li class="page-item ">
-                <a class="page-link" href="../intro/part10.php" tabindex="-1" >Previous</a>
+                <a class="page-link" href="../intro/part10.php" tabindex="-1">Previous</a>
             </li>
             <li class="page-item"><a class="page-link" href="#">11</a></li>
             <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
