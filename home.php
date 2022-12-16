@@ -63,15 +63,14 @@ require_once 'config/db.php';
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom" style="z-index: 999;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-bottom  style=" z-index: 999;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img width="350px" height="90px" src="./img/logo gif.gif"> </a>
+            <a class="navbar-brand" href="#"><img width="280px" height="60px" src="./img/logo.gif"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                <div class="navbar-nav  ">
                     <a class="nav-link active h4" aria-current="page" href="#">Home</a>
                     <a class="nav-link active h4" href="#">About</a>
                     <a class="nav-link active h4" href="#">Course</a>
@@ -79,10 +78,13 @@ require_once 'config/db.php';
                 </div>
             </div>
         </div>
-        <footer class="bg-light">
-            <p class="credit ">ขอบคุณภาพจาพ:Adobe Stock</p>
-        </footer>
+       
     </nav>
+
+    
+    <footer class="bg-light ">
+        <p class="credit ">Photo Credit : Adobe Stock</p>
+    </footer>
 
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="home/js/scripts.js"></script>

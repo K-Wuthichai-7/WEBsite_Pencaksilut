@@ -93,27 +93,159 @@ if (!isset($_SESSION['user_login'])) {
             </nav>
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">สื่อการสอน ท่ารำบุคคลเดี่ยว ปันจักสีลัต</h1>
+                <h1 class="mt-4 text-center text-primary"><strong> อธิบายท่ารำเบื้องต้น </strong></h1>
 
-                <h5>Jurus Tunggal เป็นรูปแบบ Pencak Silat ที่ได้รับการยอมรับในระดับสากลซึ่งประกอบด้วย 100 กระบวนท่าการเคลื่อนไหวโดยแบ่งออกเป็น 14 ชุดหรือ Jurus ซึ่งจะแบ่งออกเป็น 3 ส่วน ได้แก่
-                    1. หมวดมือเปล่า มีทั้งหมด 50 กระบวนท่า
-                    2. หมวดโกลกหรือมีด มีทั้งหมด 25 กระบวนท่า
-                    และ 3.หมวดโทยะหรือไม้กระบอง มีทั้งหมด 25 กระบวนท่า
-                    รวมการเคลื่อนไหวทั้งหมด 100 กระบวนท่า ซึ่งจะต้องแสดงให้เสร็จสิ้นภายใน 3 นาที นักกีฬาจะถูกตัดสินจากคุณภาพของการเคลื่อนไหวและความถูกต้องของการเคลื่อนไหวตามกระบวนท่า โดยคะแนนจะถูกหักสำหรับเทคนิคที่ไม่ถูกต้อง, การแต่งกายที่ไม่เหมาะสม, ใช้เวลาน้อยกว่าหรือเกินกว่า 3 นาที, การวางอาวุธที่ผิดตำแหน่งต่างๆในท่ารำ, การแสดงท่าอื่นๆที่ไม่ได้อยู่ในท่ารำหรือออกนอกขอบเขตของกระบวนท่า เป็นต้น
+                <h5> Jurus Tunggal เป็นรูปแบบ Pencak Silat ที่ได้รับการยอมรับในระดับสากลซึ่งประกอบด้วย 100 กระบวนท่าการเคลื่อนไหวโดยแบ่งออกเป็น 14 ชุดหรือ Jurus ซึ่งจะแบ่งออกเป็น 3 ส่วน ได้แก่ <br>
+                    <br>
+                    <code>
+                        1. หมวดมือเปล่า มีทั้งหมด 50 กระบวนท่า <br>
+                        2. หมวดโกลกหรือมีด มีทั้งหมด 25 กระบวนท่า <br>
+                        3. หมวดโทยะหรือไม้กระบอง มีทั้งหมด 25 กระบวนท่า <br>
+                    </code>
+                  
                 </h5>
+                <hr>
+
+                <!-- slider -->
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-lg-7">
+                        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <img src="img/1.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 1</code></h1>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/2.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 2</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/3.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 3</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/4.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 4</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/5.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 5</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/6.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 6</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/7.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 7</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/8.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 8</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/9.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 9</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/10.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 10</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/11.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 11</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/12.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 12</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/13.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 13</code></h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/14.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1> <code>SET 14</code></h1>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
 
 
-
-
+                <!-- slider -->
+                <br>
+                <h5>
+                    รวมการเคลื่อนไหวทั้งหมด 100 กระบวนท่า ซึ่งจะต้องแสดงให้เสร็จสิ้นภายใน 3 นาที
+                    นักกีฬาจะถูกตัดสินจากคุณภาพของการเคลื่อนไหวและความถูกต้องของการเคลื่อนไหวตามกระบวนท่า
+                    โดยคะแนนจะถูกหักสำหรับเทคนิคที่ไม่ถูกต้อง, การแต่งกายที่ไม่เหมาะสม, ใช้เวลาน้อยกว่าหรือเกินกว่า 3 นาที, การวางอาวุธที่ผิดตำแหน่งต่างๆในท่ารำ,
+                    การแสดงท่าอื่นๆที่ไม่ได้อยู่ในท่ารำหรือออกนอกขอบเขตของกระบวนท่า เป็นต้น
+                </h5>
             </div>
 
         </div>
     </div>
 
-    <nav aria-label="Page navigation example " >
+    <nav aria-label="Page navigation example ">
         <ul class="pagination justify-content-end">
             <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true" >Previous</a>
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
             </li>
             <li class="page-item"><a class="page-link" href="intro/part1.php">1</a></li>
             <li class="page-item"><a class="page-link" href="intro/part2.php">2</a></li>

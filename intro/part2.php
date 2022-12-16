@@ -41,7 +41,7 @@ if (!isset($_SESSION['user_login'])) {
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
             <div class="list-group list-group-flush">
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
@@ -91,24 +91,37 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 2</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-
+                <h1 class="mt-4 text-center text-primary"><strong> JURUS 2</strong></h1>
+                <h3><code>Interval 1-2</code> </h3>
+                <p>
+                    
+                        1. จากท่าจบของ Jurus 1 ให้บิดลำตัวไปเอี้ยวไปทางซ้าย มือซ้ายยกขึ้นป้องกันแนบลำตัว มือขวากดลงเพื่อป้องกันทางด้านล่าง <br>
+                        2. ก้าวเท้าขวาไปข้างหน้า พร้อมกับเลื่อนแขนขวาขึ้นมาป้องกันด้านบน <br>
+                        3. บิดลำตัวกลับหลังมาจากด้านซ้าย พร้อมกับวาดมือขวายื่นไปสุดแขนข้างหน้า มือซ้ายตั้งพาซังไปบริเวณหน้าอก <br>
+                        4. ดึงขาซ้ายถอยหลังเข้ามาใกล้กับตัวประมาณ ครึ่งเมตร โดยหลังจากดึงมาแล้วให้เปิดส้นเท้าประมาณ 1 คืบพร้อมกับเปลี่ยนมือซ้ายยื่นมาในลักษณะตั้งการป้องกัน มือขวากำหมัดหงายแนบกับข้างลำตัว เตรียมพร้อมสำหรับการรำในช่วงที่ 2 <br>
+                    
+                </p>
+                <hr>
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/2.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
+                
+                  <h3><code><strong>  Jurus 2 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+                    
+                    1. ก้าวเท้าขวาไปข้างหน้า พร้อมกับยื่นมือขวาในลักษณะจับตัวคู่ต่อสู้ แล้วดึงมาเข้าหาลำตัว หลังจากนั้นเหวี่ยงศอกซ้ายเพื่อโจมตีบริเวณช่วงคาง <br>
+                    2. ใช้เท้าซ้ายถีบคู่ต่อสู้ไปบริเวณที่หน้าอก คล้ายกับการเตะตรงอับชากิของกีฬาเทควันโด้ จากนั้นเมื่อถีบเสร็จให้วางเท้าซ้ายลงไปข้างหน้า  <br>
+                    3. ใช้หมัดขวาชกไปข้างหน้า มือซ้ายป้องกันบริเวณใบหน้า <br>
+                    4. ก้าวเท้าขวาไปข้างหน้า ใช้มือขวาไล่ตามจับคู่ต่อสู้ในลักษณะวาดมือขึ้นเหนือศรีษะแล้วดึงลงมาแนบข้างลำตัว หลังจากนั้นใช้ศอกซ้ายตีขึ้นไปที่คางคู่ต่อสู้  <br>
+                    5. ยกมือขวาแบมือขึ้นสูงสุดเหนือศรีษะ มือซ้ายแบมือป้องกันบริเวณใบหน้า  <br>
+                    6. พลิกตัวกลับมาด้านหลังในลักษณะกลับหลังมาจากทางซ้าย ย่อตัวลงในลักษณะคุกเข่าข้างเดียว ขาซ้ายตั้งฉากขนานกับพื้น สะโพกนั่งลงบนส้นเท้าข้างขวา  มือซ้ายแบมือป้องกันบริเวณใบหน้า มือขวากำหมัดดึงลงมาวางในลักษณะหงายมือบริเวณข้างหน้าท้อง
+                   
                 </p>
 
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
@@ -128,7 +141,7 @@ if (!isset($_SESSION['user_login'])) {
     <nav aria-label="Page navigation example ">
         <ul class="pagination justify-content-end">
             <li class="page-item ">
-                <a class="page-link" href="../intro/part1.php" tabindex="-1" >Previous</a>
+                <a class="page-link" href="../intro/part1.php" tabindex="-1">Previous</a>
             </li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="../intro/part3.php">3</a></li>

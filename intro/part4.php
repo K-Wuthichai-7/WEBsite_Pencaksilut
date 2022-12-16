@@ -92,8 +92,15 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 4</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+            <h1 class="mt-4 text-center text-primary"><strong> JURUS 4</strong></h1>
+                <h3><code>Interval 3-4</code> </h3>
+                <p>
+
+                    1. ยกตัวขึ้นในลักษณะคุกเข่าข้างเดียว ขาซ้ายตั้งฉากกับพื้น สะโพกไม่ติดกับส้นเท้าขวา ลักษณะหันข้างไปทางซ้ายหากมองจากด้านหน้า มือขวาคว่ำมือวางลงบนหน้าตักขาซ้าย มือซ้ายหงายมือขึ้นยกขึ้นมาไปข้างหน้าระดับศรีษะ  <br>
+                    2. จากนั้นยืนขึ้น ลดมือซ้ายลงแนบกับข้างกางเกง มือขวายกขึ้นแบมือยกขึ้น เหนือศรีษะในลักษณะหงายมือ
+                
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -101,15 +108,17 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong>  Jurus 4 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+                    1. ก้าวเท้าขวาไปข้างหน้า จากนั้นกำหมัดขวาฟาดลงต่ำบริเวณข้างลำตัว มือซ้ายยกขึ้นป้องกัน  <br>
+                    2. กลับหลังหันหมุนลำตัวไปด้านหลัง มือขวากำหมัดไขว้ไว้ด้านหลัง มือซ้ายกำหมัดฟาดหลังมือไปโจมตีบริเวณกกหูคู่ต่อสู้ จากนั้นรีบชักมือกลับมาข้างลำตัว  <br>
+                    3. ก้าวเท้าซ้ายมาทางด้านหน้า มือขวาตีศอกไปทางข้างหน้า มือซ้ายยกป้องกันใบหน้า <br>
+                    4. จากนั้นใช้เท้าขวาเตะไปข้างหน้า วางเท้าเตะลงในตำแหน่งที่เตะ <br>
+                    5. มือทั้งสองวาดร่ายให้มือขวาแบมือหงายยื่นไปข้างหน้า มือซ้ายแบมือหงายรองใต้ข้อศอกขวา <br>
+                    6. จากนั้นกระตุกแขนทั้งสองสั้นๆ 1 จังหวะเข้าหาตัว <br>
+                    7. สืบเท้าขวาไปด้านหลัง มือซ้ายแบมือไขว้เก็บไว้ด้านหลัง คล้ายท่าตามระเบียบพัก มือขวาแบมือยกขึ้นไว้ข้างหน้าคล้ายกับการส่องกระจกมองหน้ามือของตนเอง <br>
                 </p>
-
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>

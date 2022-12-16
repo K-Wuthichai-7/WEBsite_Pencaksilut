@@ -91,24 +91,35 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 3</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-primary"><strong> JURUS 3</strong></h1>
+                <h3><code>Interval 2-3</code> </h3>
+                <p>
+
+                    1. ลุกขึ้นยืนจากนั้น ไขว้ขาขวามาทางด้านหน้า แล้วหันด้านหลังออกไป มือทั้งสองข้างเปิดออกในลักษณะวาดมือผายออกทั้งสองข้าง โดยให้มือซ้ายผายขึ้นข้างบน มือขวาผายลงข้างล่าง <br>
+                    2. ก้าวเท้าซ้ายไปทางด้านหลังให้มาเสมอกับเท้าขวา ระยะห่างเท้าซ้ายและเท้าขวาห่างกันประมาณ 1 ช่วงไหล่ <br>
+                    3. จากนั้นยกเข่าขวาขึ้น มือซ้ายผายออกไปด้านข้างลำตัวสุดแขน มือซ้ายแบออกงุ้มข้อมือเล็กน้อย ในขณะที่มือขวายกตั้งใกล้บริเวณใบหน้า มือขวาแบมืองุ้มข้อมือเล็กน้อย <br>
+
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/3.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
-
+                
+                <h3><code><strong>  Jurus 3 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
-                </p>
+                    1. วางเท้าขวาลงกับพื้นข้างลำตัว ร่ายท่าพาซังให้มือขวาแบมือ ชูขึ้นเหนือศรีษะ มือซ้ายแบมือป้องกันบริเวณใบหน้า  <br>
+                    2. จากนั้นเลื่อนมือขวาลงมาในลักษณะหงายมือ บริเวณแถวหน้าอก ระยะห่างพอประมาณ มือซ้ายยังคงป้องกันไว้ <br>
+                    3. เลื่อนขาขวามาชิดขาซ้ายเหมือนยืนแถวตรง จากนั้นก้าวขาขวาออกมาในลักษณะทางข้าง ให้ด้านข้างลำตัวหันไปข้างหน้า  <br>
+                    4. ใช้มือขวากำหมัดตีออกไปทางด้านข้าง เพื่อโจมตีบริเวณกกหู จากนั้นชักมือกลับมาข้างลำตัว  <br>
+                    5. ใช้เท้าซ้ายเตะตามไปข้างหน้า หลังจากเตะให้วางเท้าที่เตะลงข้างหน้าลงกับพื้น <br>
+                    6. หมุนตัวลงนั่งกับพื้น ต่อด้วยการใช้ขาขวากวาดหลังสกัดขาคู่ต่อสู้ ขาซ้ายเหยียดออกไปทางด้านซ้าย พร้อมกับใช้มือขวาแบมือยกขึ้นเพื่อป้องกันบริเวณเหนือศรีษะ มือซ้ายยันกับพื้นด้านหลังไว้  <br>
 
+                </p>
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>

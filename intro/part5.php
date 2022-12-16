@@ -91,8 +91,13 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 5</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+            <h1 class="mt-4 text-center text-primary"><strong> JURUS 5</strong></h1>
+                <h3><code>Interval 4-5</code> </h3>
+                <p>
+                    1. การเท้าขวามาข้างหน้า พร้อมกับวาดมือทั้งสองข้าง ให้มือซ้ายแบมือหงายยื่นไปข้างหน้า มือขวาแบมือหันไปข้างหน้าแนบข้างลำตัว <br>
+                    2. ก้าวเท้าซ้ายมาข้างหน้า มือขวากำหมัดหงายมาข้างหน้า มือซ้ายแบมือป้องกันใบหน้า  
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -100,15 +105,16 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong>  Jurus 5 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
-                </p>
+                    1. ก้าวเท้าขวามาข้างหน้า ยื่นมามือขวาไปข้างหน้าเหนือศรีษะ มือขวาทำในลักษณะงอข้อมือทั้ง 5 นิ้ว คล้ายกรงเล็บเสือ มือซ้ายยกขึ้นป้องกันใบหน้า  <br>
+                    2. ดึงมือขวากลับมาที่ลำตัว  จากนั้นมือทั้งสองข้างวาดมือ มาในลักษณะร่ายรำวนช่วงแขน เปลี่ยนมือขวาเป็นแบมือป้องกันบริเวณใบหน้า มือซ้ายกำหมัดวาดเข้ามาในลักษระหงายมือบริเวณ แถวหน้าท้อง พร้อมกับสืบเท้ากลับมาทางด้านหลัง <br>
+                    3. ให้ขาทั้งสองข้างห่างกันประมาณ 1 ช่วงไหล่ หันลำตัวทางข้างขวาไปด้านหน้า ยกมือขวากำหมัดป้องกันข้างหน้าของตนเอง มือซ้ายแบมือแนบข้างลำตัว  <br>
+                    4. สืบเท้าซ้ายเข้ามาชิดกับเท้าขวาเหมือนชิดเท้ายืนตรง มือขวาวาดออกไปเพื่อฟันสับคอคู่ต่อสู้ออกไปตรงๆ  <br>
+                    มือซ้ายกำหมัดแนบไว้ข้างลำตัว ศรีษะหันตามไปทางด้านเดียวกับมือขวาที่ฟันคอ
 
+                </p>
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
