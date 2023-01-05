@@ -36,7 +36,7 @@ require_once 'config/db.php';
             <div class="container-fluid px-4 px-lg-0">
                 <h1 class="fst-italic lh-1 mb-4 text-danger">คอร์สออนไลน์ ฟรี</h1>
                 <h2 class="fst-italic lh-1 mb-4">ท่ารำ ปันจักสีลัต </h2>
-                <p class="mb-5 fs-6"> ปันจักสีลัต (Pencak Silat) เป็นคำที่มาจากภาษาอินโดนีเซียมาจากคำว่า ปันจัก (Pencak) หมายถึงการป้องกันตนเอง และคำว่า สีลัต(Silat) หมายถึงศิลปะ รวมความแล้วหมายถึงศิลปะการป้องกันตนเอง <button class="btn btn-light  "><a href="https://www.thaipbs.or.th/news/content/315406">อ่านเพิ่มเติม </a> </button></p>
+                <p class="mb-5 fs-6"> ปันจักสีลัต (Pencak Silat) เป็นคำที่มาจากภาษาอินโดนีเซียมาจากคำว่า ปันจัก (Pencak) หมายถึงการป้องกันตนเอง และคำว่า สีลัต(Silat) หมายถึงศิลปะ รวมความแล้วหมายถึงศิลปะการป้องกันตนเอง <button class="btn btn-light  "><a href="https://www.thaipbs.or.th/news/content/315406" target="_blank">อ่านเพิ่มเติม </a> </button></p> 
 
                 <a class="btn btn-primary fs-3" href="/php-register/signin.php"> เข้าสู่บทเรียน </a>
 

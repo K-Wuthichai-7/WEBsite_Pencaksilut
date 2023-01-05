@@ -80,7 +80,7 @@ if (!isset($_SESSION['user_login'])) {
                                     </svg> <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></button>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
+                                    <a class="dropdown-item" href="../signin.php">ลงชื่อเข้าใช้ใหม่</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="../home.php">ออกจากระบบ</a>
                                 </div>
@@ -91,29 +91,42 @@ if (!isset($_SESSION['user_login'])) {
             </nav>
             <!-- Page content-->
             <!-- Page content-->
-            <div class="container-fluid">
-                <h1 class="mt-4 text-center">Simple 1</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+            <div class="container">
+                <h1 class="mt-4 text-center text-primary"><strong> JURUS 1</strong></h1>
+                <h3><code>Intro</code> </h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked.
+
+                    1. เริ่มต้นด้วยการยืนตำแหน่งตัวตรง เท้าทั้งสองข้างชิดติดเสมอกัน <br>
+                    2. จากนั้นพนมมือด้วยกันให้ฝ่ามือทั้งสองอยู่ในตำแหน่งบริเวณหน้าอก วาดขึ้นไปข้างบนจนสุดแขน ถึงเหนือศรีษะ <br>
+                    3. ผายมือออกทั้งซ้ายและขวาออกไปทางข้างทั้งสองพอประมาณ จากนั้นกลับมาพนมมือตามเดิม <br>
+                    4. ลดมือที่พนมมือช้าๆกลับลงมาตำแหน่งที่หน้าอก  <br>
+                    5. เก็บแขนทั้งสองข้างพาดไว้ที่ตำแหน่งบริเวณหน้าท้อง โดยให้แขนซ้ายอยู่ข้างในและแขนขวาอยู่ข้างนอก  <br>
+                    6. ก้มศรีษะลงเล็กน้อย และสงบนิ่งเพื่อเตรียมรำในลำดับต่อไป
+
                 </p>
+                <hr>
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/1.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong>  Jurus 1 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, accusantium, maxime quis culpa aliquid obcaecati, mollitia error at labore vel sunt? Animi obcaecati mollitia tempore ipsum! Minima excepturi facere, consequuntur, tenetur dolor eius repudiandae sunt voluptatem dignissimos optio illo est voluptates similique rem nemo autem ex fugiat eum? Esse obcaecati fuga ipsa laudantium alias amet aspernatur inventore dicta totam minima! Hic temporibus, obcaecati molestias molestiae provident ipsa doloribus unde, voluptatibus quo sequi quod inventore rerum, amet reprehenderit porro non enim. Consequatur ullam ex ipsam quisquam, harum obcaecati. Dolor dolores qui corrupti iste, amet ratione facilis praesentium possimus rem ex similique.
+                    
+                    1. สืบเท้าซ้ายไปด้านหลัง <br>
+                    2. วาดแขนซ้ายหมุนจากด้านหลังไปด้านหน้า และขาขวาหมุนจากด้านหน้าไปด้านหลัง แบมือออกทั้งสองข้าง  <br>             
+                    3. ก้าวเท้าซ้ายมาชิดเสมอเท้าขวา <br>
+                    4. ก้าวเท้าขวาในลักษณะเสียบพุ่งไปด้านหน้า พร้อมกับตบมือทั้งสองข้างขึ้นเหนือศรีษะแล้วดันฝ่ามือไปข้างหน้าเพื่อผลักคู่ต่อสู้  <br>
+                    5. จากนั้นทำการผลักฝ่ามือขวาออกไปคล้ายลักษณะเหมือนชักกะเย่อ กำหมัดขวาเก็บไว้ข้างลำตัว มือซ้ายแบมือตั้งขนานบริเวณหน้าท้อง  <br>
+                    6. ยื่นมือทั้งสองข้างไปข้างหน้าในลักษณะจับไหล่เพื่อแทงเข่าคู่ต่อสู้ ตามด้วยใช้เข่าซ้ายยกตั้งฉากขนานกับพื้น  <br>
+                    7. ตามด้วยการเตะเท้าขวาไปที่ลิ้นปี่ ในลักษณะกระโดดสลับเท้า  <br>
+                    8. มือขวาอยู่หน้าอก มือซ้ายขนานบริเวณหน้าท้อง จากนั้นใช้มือขวาชกไปที่บริเวณใบหน้าคู่ต่อสู้ ทางตำแหน่งด้านซ้ายของตนเอง  <br>
+                    9. ปิดท้ายด้วยการป้องกันตนเอง โดยยื่นแขนซ้ายออกไปให้สุดในลักษณะยกขึ้นป้องกัน แขนขวาดึงมาเก็บในข้างลำตัว  <br>
+
                 </p>
+
+                <hr>
 
                 <div class="container">
                     <div class="row">
@@ -136,7 +149,7 @@ if (!isset($_SESSION['user_login'])) {
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-end">
             <li class="page-item ">
-                <a class="page-link" href="../user.php" tabindex="-1" >Previous</a>
+                <a class="page-link" href="../user.php" tabindex="-1">Previous</a>
             </li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="../intro/part2.php">2</a></li>

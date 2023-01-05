@@ -79,7 +79,7 @@ if (!isset($_SESSION['user_login'])) {
                                     </svg> <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></button>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
+                                    <a class="dropdown-item" href="../signin.php">ลงชื่อเข้าใช้ใหม่</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="../home.php">ออกจากระบบ</a>
                                 </div>
@@ -90,7 +90,7 @@ if (!isset($_SESSION['user_login'])) {
             </nav>
             <!-- Page content-->
             <!-- Page content-->
-            <div class="container-fluid">
+            <div class="container">
             <h1 class="mt-4 text-center text-primary"><strong> JURUS 5</strong></h1>
                 <h3><code>Interval 4-5</code> </h3>
                 <p>

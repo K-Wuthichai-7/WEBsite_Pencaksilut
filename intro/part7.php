@@ -80,7 +80,7 @@ if (!isset($_SESSION['user_login'])) {
                                     </svg> <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></button>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="signin.php">ลงชื่อเข้าใช้ใหม่</a>
+                                    <a class="dropdown-item" href="../signin.php">ลงชื่อเข้าใช้ใหม่</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="../home.php">ออกจากระบบ</a>
                                 </div>
@@ -90,8 +90,8 @@ if (!isset($_SESSION['user_login'])) {
                 </div>
             </nav>
             <!-- Page content-->
-            <!-- Page content-->
-            <div class="container-fluid">
+            
+            <div class="container">
                 <h1 class="mt-4 text-center">Simple 7</h1>
                 <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
 
