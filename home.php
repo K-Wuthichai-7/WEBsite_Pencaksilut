@@ -49,7 +49,7 @@ require_once 'config/db.php';
     <div class="social-icons">
         <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
             <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark m-3" href="https://web.facebook.com/get.richard1"><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
@@ -72,9 +72,9 @@ require_once 'config/db.php';
             <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
                 <div class="navbar-nav  ">
                     <a class="nav-link active h4" aria-current="page" href="#">Home</a>
-                    <a class="nav-link active h4" href="#">About</a>
-                    <a class="nav-link active h4" href="#">Course</a>
-                    <a class="nav-link active h4" href="#">Contact</a>
+                    <a class="nav-link active h4" href="./menu/about.php">About</a>
+                    <a class="nav-link active h4" href="./menu/team.php">Team</a>
+                    <a class="nav-link active h4" href="./menu/contact.php">Contact</a>
                 </div>
             </div>
         </div>

@@ -56,6 +56,7 @@ if (!isset($_SESSION['user_login'])) {
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
+                <a class="btn btn-primary p-3" href="Quiz.php">แบบทดสอบหลังเรียน</a>
 
             </div>
         </div>
@@ -134,8 +135,8 @@ if (!isset($_SESSION['user_login'])) {
             <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
             <li class="page-item"><a class="page-link" href="../intro/part13.php">13</a></li>
             <li class="page-item"><a class="page-link" href="#">14</a></li>
-            <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a>
+            <li class="page-item ">
+                <a class="page-link" href="Quiz.php" >Next</a>
             </li>
         </ul>
     </nav>
