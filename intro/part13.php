@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -92,22 +99,34 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 13</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 13</strong></h1>
+                <h3><code>Interval 12-13</code> </h3>
+                <p>
 
+
+                    1. บิดลำตัวหันหน้าไปทางซ้ายของตนเอง ศรีษะมองตามไป ยื่นมือซ้ายที่ป้องกันตนออกไปข้างหน้าเล็กน้อย โดยยังคงลักษณะท่าป้องกันตามเดิม
+
+                </p>
+                <hr>
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/13.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 13 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+
+                    1. สืบเท้าขวามาข้างหน้า เหวี่ยงไม้รอบหน้าศรีษะตน ในลักษณะหมุนไปทางซ้าย เมื่อหมุนเสร็จให้ตวัดไม้เพื่อโจมตีคู่ต่อสู้ 2 ครั้ง โดยตวัดหมุนไม้จากขวาไปซ้ายตามเข็มนาฬิกา โดยเมื่อทำครั้งแรกเสร็จ ให้ดึงเท้าซ้ายมาชิดเท้าขวา และสืบเท้าขวาไปข้างหน้าต่อพร้อมกับตวัดไม้โจมตีอีก 1 รอบ <br>
+                    2. หลังจากนั้นก้าวเท้าซ้ายมาข้างหน้า ใช้ไม้ด้านที่จับด้วยมือซ้าย ฟาดไปข้างหน้าจากทางซ้าย<br>
+                    3. เหวี่ยงไม้ทางมือจับข้างขวาในลักษณะเหวี่ยงลงให้ปลายไม้มือจับข้างขวาชี้ไปข้างหน้า จากนั้นดึงเท้าซ้ายมาชิดกับเท้าขวา <br>
+                    4. เหวี่ยงไม้เป็นวงกลมตามเข็มนาฬิกา บริเวณหน้าศรีษะของตน เมื่อเหวี่ยงเสร็จไปปลายไม้ทางมือขวาชี้ลงพื้นเฉียงด้านขวาของตนประมาณ 45 องศา หน้าหันมาทางปลายไม้ทางขวาตาม <br>
+                    5. ก้าวเท้าซ้ายถอยหลังออกไป ดึงไม้ถอยเข้ามาใกล้ตัวในลักษณะท่าเดิมตามข้อ 4 เพียงเล็กน้อย <br>
+                    6. ปล่อยมือขวาออกจากไม้ ใช้มือซ้ายที่เหลือเหวี่ยงไปทางด้านหลังอย่างช้าๆ ลักษณะครึ่งวงกลมบนลงล่าง พร้อมกับใช้สายตาและศรีษะมองตามไม้ที่เหวี่ยงออกไปจนเสร็จ โดยให้ปลายไม้ชี้ลงพื้นไปทางด้านหลัง <br>
+                    7. บิดลำตัวพร้อมหันศรีษะกลับหลังหันมาทางเดิม โดยหันมาจากทางขวา มือขวายกขึ้นป้องกันตน
+
+
+
                 </p>
 
                 <div class="container">
@@ -115,7 +134,7 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/2rSd6-4mhe8" title="Jurus13" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

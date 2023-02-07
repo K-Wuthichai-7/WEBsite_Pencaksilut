@@ -26,8 +26,6 @@ require_once '../config/db.php';
 </head>
 
 <body>
-
-
     <!-- Team-->
     <div class="container-fluid">
 
@@ -42,14 +40,13 @@ require_once '../config/db.php';
                                 <h2 class="section-heading text-uppercase">เกี่ยวกับเรา </h2>
                                 <h5 class="section-subheading text-muted">จุดเริ่มต้นของการสร้างเว็บไซร์สื่อการสอน Panchak Silat</h5>
                             </div>
-                            <div class="row mt-4">
+                            <div class="row mt-5">
                                 <div class="col"></div>
                                 <div class="col-lg-4">
                                     <div class="text-center ">
-                                       <img src="../img/happy-learn.jpg" alt="" class="img-fluid">
+                                        <img src="../img/happy-learn.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
-                                
                                 <div class="col"></div>
 
                             </div>
@@ -60,16 +57,13 @@ require_once '../config/db.php';
                             </div>
                         </div>
                     </section>
-
-
-
                 </div>
             </section>
         </div>
 
     </div>
     <!-- Social Icons-->
-    <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
+
 
     <div class="social-icons">
         <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">

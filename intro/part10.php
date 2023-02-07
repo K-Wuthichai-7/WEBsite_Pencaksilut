@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -91,8 +98,16 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 10</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 10</strong></h1>
+                <h3><code>Interval 9-10</code> </h3>
+                <p>
+
+                    1. วางเท้าขวาลงพื้น ก้าวเท้าซ้ายไปข้างหน้าแล้วนั่งคุกเข่าลงแต่ไม่ต้องให้สะโพกติดกับส้นเท้า เข่าซ้ายตั้งขึ้น  <br>
+                    2. มือทั้งสองข้างวาดร่ายให้มือขวาลงล่าง มือซ้ายอยู่ข้างบนมือชี้ฟ้า
+
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -100,13 +115,25 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 10 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+
+                    1. ยกเท้าขวามาวางขนานเท้าซ้าย จากนั้นสืบเท้าขวาไปด้านข้าง แล้วหันตัวไปทางด้านขวา มือซ้ายป้องกัน มือขวาฟันมีดไปข้างหน้า  <br>
+                    2. บิดตัวและก้าวเท้าขวาไปด้านหลัง โดยบิดไปทางซ้าย และก้าวเท้าขวาไปข้างหน้าแต่ให้ก้าวไปทางด้านหลังของตน พร้อมกับผายมือออก มือขวาลงล่าง มือซ้ายชี้ขึ้นบน <br>
+                    3. บิดตัวไปทางด้านซ้ายของตน ซึ่งเท้าซ้ายจะอยู่ข้างหน้า มือขวาฟันมีดลงล่าง มือซ้ายยกขึ้นป้องกัน <br>
+                    4. ก้าวเท้าซ้ายถอยไปข้างหลัง แล้วผายแขนออกทั้งสองข้างขนานลำตัว <br>
+                    5. ก้าวเท้าซ้ายไปข้างหน้า วาดมือทั้งในลักษณะวนออกมาข้างหน้าโดยให้มือขวาอยู่ข้างหน้ามือซ้าย ส่วนมือซ้ายป้องกันใบหน้า <br>
+                    6. หันไปทางขวา ฟันมีดออกไปข้างหน้า จากนั้นกลับหลังหัน โดยหันไปทางซ้าย พร้อมกับมือขวาพลิกมีดให้ใบมีดอยู่ด้านล่าง จากนั้นนำมาไว้หน้าตนในลักษณะคล้ายท่าขัดฉาก ให้มือขวาอยู่บนมือซ้ายอยู่ล่าง แต่แขนทั้งสองไม่สัมผัสกัน <br>
+                    7. หันไปทางซ้าย ก้าวเท้าขวาไปข้างหน้า มือขวาพลิกใบมีดกลับมาอยู่ด้านบน แล้วฟันไปข้างหน้าบริเวณศรีษะ <br>
+                    8. กลับหลังหันมาทางด้านซ้าย จากนั้นก้าวเท้าขวามาข้างหน้า มือขวาฟันมีดลงไปข้างหน้า ลักษระฟันบนลงล่าง <br>
+                    9. สืบเท้าซ้ายไปข้างหน้าแบบเฉียง 45 องศา จากนั้นมือขวาพลิกมีดให้ใบมีดลงล่าง แล้วฟันไปบริเวณใบหน้าคู่ต่อสู้ มือซ้ายยกป้องกัน <br>
+                    10. ย้ายมีดจากมือขวามาไว้ในมือซ้าย พร้อมกับพลิกใบมีดขึ้นชี้ข้างบน จากนั้นยกเข่าขวาขึ้นแล้ววางลงพร้อมกับยกเข่าซ้ายขึ้น ( คล้ายอาการเขย่งสลับเท้า ) <br>
+                    11. ก้าวเท้าซ้ายถอยไปข้างหลังแล้วบิดตัวตามมา โดยบิดมาทางซ้าย จากนั้นมือซ้ายฟันมีดออกไปข้างหน้า มือขวายกป้องกัน <br>
+                    12. ย้ายมีดจากมือซ้ายมาสู่มือขวา ยกเข่าซ้ายขึ้น วางลง ก้าวเท้าขวาไปทางด้านซ้ายของตนเอง โดยให้เท้าขวาอยู่ทางข้างหน้าของตน จากนั้นฟันมีดตรงๆ ในลักษณะบนลงล่าง มือซ้ายยกป้องกัน <br>
+                    13. ถอยเท้าขวามาข้างหลัง จากนั้นคุกเข่าลง เข่าซ้ายตั้งพื้น ร่ายมือทั้งสองวนรอบจากซ้ายไปขวา โดยให้มือขวาอยู่ข้างขวา มือซ้ายยกป้องกัน <br>
+                    14. ตีลังกาแบบม้วนหน้าไป 1 ครั้ง นั่งคุกเข่า ตั้งเข่าขวาขึ้น จากนั้นยกมีดขึ้นมาตรงใบหน้าด้วยมือทั้งสองข้าง แล้ววางมีดลง
+
+
                 </p>
 
                 <div class="container">
@@ -114,7 +141,7 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/JEm9rQVYzhE" title="Interval 9   10 and Jurus10"></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

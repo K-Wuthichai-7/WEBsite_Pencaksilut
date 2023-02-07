@@ -30,7 +30,7 @@ require_once '../config/db.php';
 
     <!-- Masthead-->
     <div class="container-fluid">
-    
+
         <div class="contact">
 
             <section class="page-section" id="contact">
@@ -39,13 +39,7 @@ require_once '../config/db.php';
                         <h2 class="section-heading text-uppercase text-white " \>Contact Us</h2>
                         <h4 class="section-subheading text-white ">ติดต่อเรา</h4>
                     </div>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
+
                     <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/495fdf657e5096d1fdd677656c369d6c " method="POST">
                         <div class="row align-items-stretch mb-5 mt-5">
                             <div class="col-md-6">
@@ -58,7 +52,7 @@ require_once '../config/db.php';
                                     <!-- Email address input-->
                                     <input class="form-control is-invalid" id="email" type="email" name="Email" placeholder="Your Email *" data-sb-validations="required,email" data-sb-can-submit="no">
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+
                                 </div>
                                 <div class="form-group mt-2">
                                     <!-- Phone number input-->
@@ -94,12 +88,12 @@ require_once '../config/db.php';
                             <div class="text-center text-danger mb-3">Error sending message!</div>
                         </div>
                         <!-- Submit Button-->
-                        <div class="text-center"><button class="btn btn-warning btn-xl hover-overlay   "  type="submit"> Send Message</button></div>
+                        <div class="text-center"><button class="btn btn-warning btn-xl hover-overlay   " type="submit"> Send Message</button></div>
                     </form>
                 </div>
             </section>
         </div>
-        
+
     </div>
     <!-- Social Icons-->
     <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->

@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -90,10 +97,17 @@ if (!isset($_SESSION['user_login'])) {
                 </div>
             </nav>
             <!-- Page content-->
-            
+
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 7</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 7</strong></h1>
+                <h3><code>Interval 6-7</code> </h3>
+                <p>
+
+                    1. ก้าวเท้าขวาไปด้านหลัง ร่ายพาซังไปในลักษณะด้านข้าง <br>
+                    2. ให้มือขวาอยู่เหนือศรีษะ มือซ้ายอยู่บริเวณหน้าอก ศรีษะหันไปทางด้านซ้าย
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -101,21 +115,30 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 7 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
-                </p>
+                   
+                    1. ยกขาขวาวาดมาข้างหน้าในลักษณะตวัดไปทางด้านหน้า และงอเข่าขวา หลังจากนั้นเอี้ยวขาขวาไปด้านข้างทางซ้าย แล้ววางขาขวาลงจากจุดที่ตวัดขาขวาไปข้างหน้า  <br>
+                    2. จากนั้นตั้งศอกขวาให้ข้อศอกขวาชี้ไปข้างหน้า ในลักษณะตีศอกพ มือซ้ายยกป้องกัน <br>
+                    3. กำหมัดขวา หงายหมัดขวาพุ่งออกไปเพื่อโจมตีที่ปลายคางคู่ต่อสู้ มือซ้ายยังป้องกันไว้ <br>
+                    4. กลับหลังหันไปทางด้านหลัง โดยหมุนไปทางซ้ายของตน จากนั้นก้มตัวลงไปเพื่อใช้เท้าซ้ายคู่ต่อสู้ โดยถีบไปทางด้านหลัง โดยทิ้งมือทั้งสองข้างให้สัมผัสกับพื้นเพื่อทรงตัว <br>
+                    5. เท้าซ้ายก้าวกลับไป ให้เท้าซ้ายอยู่ข้างหน้าตนเอง ก้าวเท้าขวาถอยหลังไปโดยถอยในลักษณะหมุนตัวไปทางด้านขวา แขนขวายกขึ้นป้องกัน แขนซ้ายยกลงป้องกัน <br>
+                    6. ทำการเตะกวาดขาคู่ต่อสู้ให้ล้มลง โดยทิ้งตัวลงไปกับพื้น ใช้ขาขวาเตะกวาด ไปทางด้านซ้าย ขาซ้ายแนบชิดกับพื้นงอเข่า 45 องศา มือซ้ายวางลงบนพื้นข้างลำตัว มือขวายกขึ้นป้องกันตนเอง <br>
+                    7. จากนั้นพลิกตัวหมุนไปทางด้านซ้าย 360 องศา ( 1 รอบตัวเอง ) จากนั้นนอนลงกับพื้น ขาซ้ายยกตั้งขึ้น ให้เท้าซ้ายวางลงบนพื้น ตั้งเข่าซ้ายขึ้นชี้ฟ้า เท้าขวาถีบออกไปข้างหน้าเพื่อโจมตีคู่ต่อสู้ พร้อมกับฟาดมือทั้งสองข้างลงบนพื้น ในลักษณะฟาดลงข้างลำตัว ศรีษะยกขึ้นเพื่อมองคู่ต่อสู้เล็กน้อย  <br>
+                    8. ลุกขึ้นมานั่ง สอดเท้าขวาเข้าไปในระหว่างช่องว่างหว่างขาซ้ายที่ยังตั้งขึ้นจากท่าที่แล้ว มือทั้งสองข้างวาดมาทางข้างหน้าในลักษณะเตรียมป้องกัน โดยให้มือซ้ายอยู่นำข้างหน้า  <br>
+                    9. จากนั้นวาดมือขวาออกไปข้างหน้า หงายมือชี้ไปข้างหน้า มือซ้ายยังยกป้องกัน พร้อมกับลุกขึ้นในลักษณะ  <br>
+                    นั่งยอง จากนั้นค่อยๆ หมุนตนเองไปข้างหลัง โดยหมุนไปทางขวา นำมือทั้งสองข้างตบลงบนพื้นเพื่อเป็นฐานรับน้ำหนักตนพร้อมกันตรงข้างหน้าตนเอง จากนั้นยกส้นเท้าทั้งสองข้างถีบขึ้นไปทางด้านบนในลักษณะขาคู่  <br>
+                    10. จากนั้นในจังหวะที่ขาทั้งสองขากำลังจะตกลงมา ให้กางขาทั้งสองข้างออกเพื่อทำท่ากรรไกร ในการที่จะหนีบคู่ต่อสู้ให้ลงมากระแทกพื้น จากนั้นขาจะลงสู่พื้นโดยให้ขาซ้ายวางหงายเหยียดไปทางด้านซ้าย ขาขวาวางคว่ำลงกับพื้นงอเข่า 45 องศา มือซ้ายวางลงบนพื้นข้างลำตัว มือขวายกขึ้นป้องกันศรีษะตนเอง
 
+
+                </p>
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/Ts6eJmOjFnM" title="Interval 6 7 And Jurus 7"></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

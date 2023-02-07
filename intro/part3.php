@@ -23,6 +23,15 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+       body {
+            background:#000;
+            color: #fff;
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -39,7 +48,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -91,7 +100,7 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center text-primary"><strong> JURUS 3</strong></h1>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 3</strong></h1>
                 <h3><code>Interval 2-3</code> </h3>
                 <p>
 
@@ -108,15 +117,15 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col-lg-5"><img src="../img/3.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
-                
-                <h3><code><strong>  Jurus 3 </strong></code></h3>
+
+                <h3><code><strong> Jurus 3 </strong></code></h3>
                 <p>
-                    1. วางเท้าขวาลงกับพื้นข้างลำตัว ร่ายท่าพาซังให้มือขวาแบมือ ชูขึ้นเหนือศรีษะ มือซ้ายแบมือป้องกันบริเวณใบหน้า  <br>
+                    1. วางเท้าขวาลงกับพื้นข้างลำตัว ร่ายท่าพาซังให้มือขวาแบมือ ชูขึ้นเหนือศรีษะ มือซ้ายแบมือป้องกันบริเวณใบหน้า <br>
                     2. จากนั้นเลื่อนมือขวาลงมาในลักษณะหงายมือ บริเวณแถวหน้าอก ระยะห่างพอประมาณ มือซ้ายยังคงป้องกันไว้ <br>
-                    3. เลื่อนขาขวามาชิดขาซ้ายเหมือนยืนแถวตรง จากนั้นก้าวขาขวาออกมาในลักษณะทางข้าง ให้ด้านข้างลำตัวหันไปข้างหน้า  <br>
-                    4. ใช้มือขวากำหมัดตีออกไปทางด้านข้าง เพื่อโจมตีบริเวณกกหู จากนั้นชักมือกลับมาข้างลำตัว  <br>
+                    3. เลื่อนขาขวามาชิดขาซ้ายเหมือนยืนแถวตรง จากนั้นก้าวขาขวาออกมาในลักษณะทางข้าง ให้ด้านข้างลำตัวหันไปข้างหน้า <br>
+                    4. ใช้มือขวากำหมัดตีออกไปทางด้านข้าง เพื่อโจมตีบริเวณกกหู จากนั้นชักมือกลับมาข้างลำตัว <br>
                     5. ใช้เท้าซ้ายเตะตามไปข้างหน้า หลังจากเตะให้วางเท้าที่เตะลงข้างหน้าลงกับพื้น <br>
-                    6. หมุนตัวลงนั่งกับพื้น ต่อด้วยการใช้ขาขวากวาดหลังสกัดขาคู่ต่อสู้ ขาซ้ายเหยียดออกไปทางด้านซ้าย พร้อมกับใช้มือขวาแบมือยกขึ้นเพื่อป้องกันบริเวณเหนือศรีษะ มือซ้ายยันกับพื้นด้านหลังไว้  <br>
+                    6. หมุนตัวลงนั่งกับพื้น ต่อด้วยการใช้ขาขวากวาดหลังสกัดขาคู่ต่อสู้ ขาซ้ายเหยียดออกไปทางด้านซ้าย พร้อมกับใช้มือขวาแบมือยกขึ้นเพื่อป้องกันบริเวณเหนือศรีษะ มือซ้ายยันกับพื้นด้านหลังไว้ <br>
 
                 </p>
                 <hr>
@@ -125,30 +134,32 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/DjTYzDwjGhE" title="Interval 2 3 and Jurus3"></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part2.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part4.php">4</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part5.php">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part4.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part2.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part4.php">4</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part5.php">5</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part4.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

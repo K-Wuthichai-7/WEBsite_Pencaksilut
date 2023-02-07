@@ -23,6 +23,14 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+       body {
+            background:#000;
+            color: #fff;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -39,7 +47,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -92,8 +100,16 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 9</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 9</strong></h1>
+                <h3><code>Interval 8-9</code> </h3>
+                <p>
+
+                    1. วางเท้าขวาลงกลับไปท่าขี่ม้าอีกครั้ง จากนั้นดึงมีดเข้ามาแนบข้างลำตัว ให้ปลายมีดชี้ไปข้างหน้า มือซ้ายยกนิ้วตั้งขึ้น เข้ามาแนบใกล้ข้างมีด <br>
+                    2. มือถือมีดค่อยๆ แทงออกไปข้างหน้าตนเองอย่างช้าๆ พร้อมกับมือซ้ายค่อยๆยกชี้ขึ้นฟ้า เหนือศรีษะตน
+
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -101,21 +117,26 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 9 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
-                </p>
 
+                    1. ยกเข่าขวาขึ้น ดึงมีดเข้าที่หน้าอกตน มือซ้ายเลื่อนมาที่บริเวณหน้าท้องตน จากนั้นหมุนตัวเองไปทางด้านหลังโดยใช้เท้าซ้ายเป็นหลักของตน โดยหมุนไปทางขวา <br>
+                    2. วางเท้าขวาลงให้นำหน้าตน จากนั้นยื่นมีดออกไปข้างหน้า เฉียงขึ้น 45 องศาเหนือตน มือซ้ายยกป้องกัน <br>
+                    3. บิดเฉพาะลำตัวและศรีษะกลับมาด้านหน้า โดยบิดไปทางซ้าย <br>
+                    4. ก้าวเท้าขวามาข้างหน้า พร้อมกับยกมีดเหนือศรีษะ เพื่อเตรียมฟัน จากนั้นฟันมีดไปในลักษณะตวัดจากข้างล่างขึ้นข้างบน <br>
+                    5. ก้าวเท้าซ้ายไปข้างหน้า แล้วบิดหมุนลำตัว 1 รอบตนเอง ( 360 องศา ) ไปทางขวา แล้วนั่งลงโดยขาซ้ายวางพื้นงอเข่ามาขนานกับตัว ขาขวาวางเหนือขาซ้ายคล้ายกับท่านั่งสมาธิ แต่ขาขวาไม่สัมผัสกับขาซ้าย มือทั้งสองข้างกางแขนออกข้างลำตัว <br>
+                    6. เอี้ยวตัวไปทางด้านขวา ให้ขาขวาแนบกับพื้น มือขวาถือมีดวางบนพื้น ขาซ้ายเหยียดตรงวางเท้ากับพื้น มือซ้ายยกขึ้นป้องกันตนเหนือศรีษะ <br>
+                    7. จากนั้นลุกขึ้น ให้เท้าซ้ายอยู่ข้างหน้า ตัวเฉียงเล็กน้อย มือซ้ายยื่นมือป้องไปข้างหน้า มือขวาใข้นิ้วกลับมีดให้กลับด้าน (ตัวมีดอยู่ด้านล่าง) แล้วแทงออกไปทางข้างหน้า ในขณะเดียวกันมือซ้ายดึงกลับมาป้องกันตนที่หน้าอก <br>
+                    8. มือขวาพลิกมีดให้ใบมีดกลับมาอยู่ด้านบน จากนั้นชี้มีดไปข้างหน้า เฉียง 45 องศา เหนือศรีษะ ในขณะมือซ้ายกำหมัดชี้ไปข้างหน้าขนานกับมือขวาด้วย จากนั้นยกเข่าขวาขี้น แล้วดึงมือทั้งสองให้มาอยู่เหนือเข่า โดยให้มือขวาปลายมีดชี้ขึ้นฟ้า มือซ้ายกำหมัดหลังมือชี้ฟ้า 
+
+                </p>
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  src="https://www.youtube.com/embed/vJV8j1W2a0Q" title="Interval 8 9 and Jurus 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

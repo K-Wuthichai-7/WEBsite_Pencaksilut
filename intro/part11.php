@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+       body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -90,24 +97,34 @@ if (!isset($_SESSION['user_login'])) {
                 </div>
             </nav>
             <!-- Page content-->
-            
-            <div class="container">
-                <h1 class="mt-4 text-center">Simple 11</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
 
+            <div class="container">
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 11</strong></h1>
+                <h3><code>Interval 10-11</code> </h3>
+                <p>
+
+                    1. หยิบไม้พลองขึ้นมาด้วยมือทั้งสองข้าง ยกขึ้นให้ไม้แนวนอนบริเวณสายตา จากนั้นลุกขึ้นแล้วถอยหลังไป 3ก้าว โดยเริ่มจากเท้าขวาก่อน ในขณะเดียวกันที่เริ่มก้าวถอยหลังก้าวแรก ให้เปลี่ยนการจับไม้เป็นแนวตั้งโดยให้ปลายไม้ข้างหนึ่งชี้ไปข้างหน้า แนบไว้ข้างลำตัวทางขวา มือขวาอยู่หน้า มือซ้ายอยู่ข้างหลัง <br>
+                    2. เมื่อก้าว ก้าวที่สาม (เท้าขวา) ให้นำเท้าขวานั้นมาวางขนานเสมอกับเท้าซ้าย พร้อมกับขยับเปลี่ยนมือจับไม้จากมือขวาข้างหน้ามาเป็นมือซ้ายมาอยู่ข้างหน้า
+
+
+                </p>
+                <hr>
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-lg-5"><img src="../img/11.jpg" class="img-thumbnail" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 11 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+
+                    1. ก้าวเท้าขวาเฉียงไปทางซ้าย 45 องศา พร้อมกับโจมตีคู่ต่อสู้ที่ศรีษะด้วยการฟาดไม้ โดยฟาดจากท้ายของไม้ไปข้างหน้า (มือขวาที่จับ) <br>
+                    2. ถอยเท้าขวามา 1 ก้าว เปลี่ยนการจับไม้เป็นแบบคว่ำมือทั้งคู่ แล้วยกขึ้นป้องกันเหนือศรีษะ  <br>
+                    3. หมุนตัว 1 รอบ ( 360 องศา ) โดยหมุนไปทางขวา ใช้เท้าซ้ายวางเป็นจุดหมุน เมื่อหมุนมา 1 รอบ เท้าขวาจะอยู่นำหน้า จากนั้นใช้ไม้แทงคู่ต่อสู้ไปข้างหน้า <br>
+                    4. หมุนตัวกลับหลังหัน โดยหมุนไปทางด้านซ้าย จากนั้นนั่งคุกเข่าลงให้เข่าซ้ายตั้งพื้น แล้วฟาดไม้โจมตีบริเวณช่วงล่างขาของคู่ต่อสู้ โดยฟาดจากด้านขวา <br>
+                    5. หมุนไม้พลองไปไว้ด้านหลังของตน โดยหมุนไปทางด้านซ้าย คล้ายกับดาบที่สะพายหลัง มือขวาจับไม้ด้านบน มือซ้ายจับด้านล่างไม้ <br>
+                    6. จากนั้นลุกขึ้น ก้าวเท้าขวาไปข้างหน้า หมุนตัวกลับหลังหันไปทางซ้าย วางเท้าขวาลง ยกเข่าซ้ายขึ้น หมุนตัวกลับหลังหัน ไปทางซ้ายอีกครั้ง ( เมื่อทำต่อเนื่องจะเป็นลักษณะหมุนตัว 360 องศา ) เลื่อนมือซ้ายมาจับไม้ที่ข้างล่างมือขวา แล้วฟาดไม้ลงไปกับพื้น ขาทั้งสองกางพอประมาณระดับหัวไหล่  <br>
+
                 </p>
 
                 <div class="container">
@@ -115,7 +132,7 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  src="https://www.youtube.com/embed/qYiwK2AIOgM" title="Interval10 11 and Jurus11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black ">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -91,7 +98,7 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-            <h1 class="mt-4 text-center text-primary"><strong> JURUS 5</strong></h1>
+            <h1 class="mt-4 text-center text-white"><strong> JURUS 5</strong></h1>
                 <h3><code>Interval 4-5</code> </h3>
                 <p>
                     1. การเท้าขวามาข้างหน้า พร้อมกับวาดมือทั้งสองข้าง ให้มือซ้ายแบมือหงายยื่นไปข้างหน้า มือขวาแบมือหันไปข้างหน้าแนบข้างลำตัว <br>
@@ -120,7 +127,7 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  src="https://www.youtube.com/embed/1u7JeZfZ33g" title="Interval 4 5 and Jurus 5" ></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

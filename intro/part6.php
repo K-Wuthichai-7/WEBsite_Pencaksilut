@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+       body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -92,8 +99,15 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 6</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 6</strong></h1>
+                <h3><code>Interval 5-6</code> </h3>
+                <p>
+                    1. ยกเข่าขวาขึ้น นำมือขวาหงายมือมาเข้าใกล้หัวเข่าขวา มือซ้ายตั้งป้องกันไว้บนหน้าอก <br>
+                    2. ใช้เท้าซ้ายที่ยืนอยู่เป็นหลักหมุนรอบตัวเองไปทางด้านหลัง โดยหมุนไปทางขวา <br>
+                    3. วางเท้าขวาลงกับพื้น โดยให้เท้าขวาอยู่ข้างหน้า
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -101,21 +115,29 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 6 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+                    
+                    1. ยื่นมือขวาไปข้างหน้า มือซ้ายตั้งมือป้องกันบริเวณหน้าอก <br>
+                    2. บิดลำตัวย้อนกลับมาทางด้านหลัง โดยที่เท้าทั้ง 2 ข้างอยู่กับที่ และมือขวายังอยู่ในตำแหน่งเดิมแต่เปลี่ยนเป็นกำมือแทน  <br>
+                    3. หมุนตัวกลับไปทางเดิม จากนั้นยกเข่าขวาขึ้น มือขวาเหยียดไปทางด้านหลังแบมือ มือซ้ายยกขึ้นเหนือศรีษะเล็กน้อย โดยให้นิ้วมือซ้ายชี้ไปทางด้านหลัง ศรีษะมองไปทางด้านหลัง <br>
+                    4. ใช้เท้าซ้ายดีดตัวในลักษณะกระโดดเล็กน้อยพอประมาณ เพื่อกลับหลังหันไปข้างหลัง หลังจากนั้นเท้าทั้งสองข้างวางบนพื้น ให้เท้าซ้ายนำหน้าเท้าเล็กน้อย ระยะห่างประมาณ 1 ช่วงไหล่  <br>
+                    5. ใช้มือซ้ายพลิกหลังมือไปด้านขวา ยื่นออกไปพอประมาณคล้ายจับตัวคู่ต่อสู้ จากนั้นยื่นมือขวาออกไปข้างหน้าให้สุด ยกขึ้นเหนือศรีษะประมาณมุม 60 องศา จากศรีษะ โดยให้มือทั้งสองข้างงุ้มมือคล้ายทำท่าเลียนแบบเหมือนมือของเสือ <br>
+                    6. จากนั้นกระชากมือทั้งสองลงมา ให้อยู่ในระดับหน้าอกของตนเอง <br>
+                    7. กวาดมือขวาลงล่าง แบมือ อยู่บริเวณหน้าอวัยวะเพศ กวาดมือซ้ายขึ้นบนแนบบริเวณหน้าอก แบมือ จากนั้นยกเข่าขวาขึ้น และเตะกดลงไปบริเวณข้อพับขาของคู่ต่อสู้  <br>
+                    8. วางเท้าขวาลงพื้นให้เท้าขวานำเล็กน้อย เหยียดแขนทั้งสองข้างออกไปทางด้านขวาบน โดยให้แขนซ้ายงอแนบบริเวณหน้าอก มือทั้งสองแบบมือ  <br>
+                    9. เลื่อนเท้าซ้ายเขามาให้ใกล้กับลำตัว แต่ให้นำหน้าเท้าขวา นำมือทั้งสองข้างเคลื่อนมาป้องกันตนเอง โดยให้มือซ้ายนำหน้า มือขวาแนบหน้าอก โดยให้ทิศทางของตัวอยู่ทางด้านซ้าย เมื่อมองจากข้างหน้า
+
+
                 </p>
+                <hr>
 
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/Itsn0g-Nhuo" title="Interval 5 6 And Jurus 6"></iframe>
                             </div>
                         </div>
                         <div class="col"></div>

@@ -23,11 +23,20 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
+
+    
 </head>
 
 <body>
     <div class="d-flex" id="wrapper">
-        <?php
+        <?php 
 
         if (isset($_SESSION['user_login'])) {
             $user_id = $_SESSION['user_login'];
@@ -39,7 +48,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -56,7 +65,8 @@ if (!isset($_SESSION['user_login'])) {
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
-                <a class="btn btn-primary p-3" href="Quiz.php">แบบทดสอบหลังเรียน</a>
+                <a class="btn btn-primary p-3" href="https://forms.gle/axPGTHthjyQCqaUr6" target="_blank">แบบทดสอบหลังเรียน</a>
+
 
             </div>
         </div>
@@ -93,8 +103,16 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 14</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 14</strong></h1>
+                <h3><code>Interval 13-14</code> </h3>
+                <p>
+
+                    1. บิดตัวกลับหลังหันไปทางซ้ายอีกครั้ง จากนั้นยกเข่าขวาขึ้นวางลง แล้วยกเข่าซ้ายขึ้น <br>
+                    2. ถอยเท้าซ้ายมาข้างหลัง จากนั้นบิดลำตัวและศรีษะตามเท้าซ้ายไป
+
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -102,21 +120,34 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 14 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. ndis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+
+                    1. ฟาดไม้ไปข้างหน้าจากทางขวา เพื่อโจมตีบริเวณศรีษะคู่ต่อสู้ <br>
+                    2. ยกเข่าขวาขึ้น จากนั้นเหวี่ยงไม้จากขวาไปซ้ายตามเข็มนาฬิกา เหนือศรีษะ เมื่อเหวี่ยงเสร็จให้มือที่จับไม้ทางขวาอยู่ตรงข้างซ้ายบริเวณเข่าขวาที่ยกขึ้น <br>
+                    3. หมุนตัวไป 180 องศา ( ครึ่งรอบ ) ไปทางขวา โดยใช้เท้าซ้ายเป็นหลักจุดหมุน จากนั้นวางเท้าขวาลงกับพื้น <br>
+                    4. ก้าวเท้าซ้ายไปข้างหน้า แล้วหันลำตัวไปทางด้านขวาของตน ให้เท้าซ้ายกับเท้าขวาขนานกัน ห่างกันเลย 1 ช่วงหัวไหล่พอประมาณ ( ท่าขี่ม้า ) <br>
+                    5. เปลี่ยนมือทั้งสองให้มาจับไม้ยกขึ้นโดยให้หลังมือทั้งคู่ชี้ขึ้นฟ้า ยกไม้ขึ้นขนานแนวนอนบริเวณสายตาของตน ย่อตัวลงเล็กน้อย <br>
+                    6. หมุนปลายไม้ให้ฝั่งด้านจับด้วยมือซ้าย วางลงบนพื้นตรงบริเวณนิ้วก้อยเท้าขวาของตน จากนั้นชิดเท้าซ้ายมาติดเท้าขวา แล้วใช้เท้าขวาถีบออกไปบริเวณที่หน้าอกคู่ต่อสู้ แล้ววางเท้าลงกับพื้น <br>
+                    7. ก้าวเท้าซ้ายไปข้างหน้า พร้อมกับใช้ไม้ฟาดลงไปที่พื้น โดยให้มือซ้ายที่จับอยู่ด้านบน พร้อมกับย่อตัวลง <br>
+                    8. หมุนตัวลงคล้ายกับท่าเตะกวาดขาคู่ต่อสู้ใน Jurus 7 แต่ให้หมุนไป 1 รอบลงกับพื้นโดยหมุนไปทางขวา พร้อมกับเหวี่ยงไม้โจมตีแบบกวาดช่วงล่างคู่ต่อสู้ โดยเหวี่ยงออกไปตามเข็มนาฬิกาจนสุดแขนขวา ( ห้ามให้ไม้ติดหรือสัมผัสพื้น ) ขาซ้ายเหยียดตรงออกไปทางซ้าย ขาขวาคว่ำลง พับข้องอติดกับลำตัว <br>
+                    9. จากนั้นกวาดไม้กลับมาพร้อมกับหมุนตัว 1 รอบ ( 360 องศา ) ไปทางซ้าย ( ทวนเข็มนาฬิกา ) แล้วลุกขึ้นเท้าซ้ายจะอยู่ข้างหน้า <br>
+                    10. กลับหลังหันมาทางด้านหน้า โดยหันมาจากทางซ้าย พร้อมกับเปลี่ยนมือจับมาจับไม้แบบคว่ำมือทั้งสองข้าง ยื่นไม้ออกไปข้างหน้าเป็นแนวตั้งให้ฝั่งที่จับมมือขวาอยู่ด้านบน <br>
+                    11. เหวี่ยงไม้ทวนเข็มนาฬิกาให้ไปทางด้านหลังเพื่อเก็บไม้ไปทางด้านหลัง ( ใช้มือขวาจับมือเดียว )โดยปล่อยมือซ้ายออกจากไม้ แล้วยกขึ้นป้องกันตนเอง <br>
+                    12. กระโดดไปข้างหน้าเล็กน้อย โดยยังคงท่าเดิมของช่วงบนตามข้อ 11 เพื่อให้ตนเองลงนั่งกับพื้นโดยให้ขาซ้ายวางนอนติดกับพื้น ขาขวาวางเหนือขาซ้ายแต่ไม่ติดพื้น ให้เท้าขวาวางลงกับพื้นอย่างเดียวเท่านั้น เป็นอันเสร็จสิ้น
+
+
+
+
                 </p>
 
+                <hr>
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  src="https://www.youtube.com/embed/JdsWIGRcrSc" title="Jurus14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
@@ -135,9 +166,7 @@ if (!isset($_SESSION['user_login'])) {
             <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
             <li class="page-item"><a class="page-link" href="../intro/part13.php">13</a></li>
             <li class="page-item"><a class="page-link" href="#">14</a></li>
-            <li class="page-item ">
-                <a class="page-link" href="Quiz.php" >Next</a>
-            </li>
+
         </ul>
     </nav>
     <!-- Bootstrap core JS-->

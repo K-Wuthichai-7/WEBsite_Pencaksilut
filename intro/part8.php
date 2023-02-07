@@ -23,6 +23,13 @@ if (!isset($_SESSION['user_login'])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      body {
+            background:#000;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,7 +46,7 @@ if (!isset($_SESSION['user_login'])) {
 
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light text-center">บทเรียน</div>
+            <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
@@ -90,10 +97,19 @@ if (!isset($_SESSION['user_login'])) {
                 </div>
             </nav>
             <!-- Page content-->
-            
+
             <div class="container">
-                <h1 class="mt-4 text-center">Simple 8</h1>
-                <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 8</strong></h1>
+                <h3><code>Interval 7-8</code> </h3>
+                <p>
+
+                    1. จากท่าตอนจบของมือเปล่า ยกตัวขึ้นในลักษณะนั่งยองแบบคุกเข่า โดยให้เท้าซ้ายอยู่ข้างหน้าตั้งฉาก สะโพกเกือบติดส้นเท้าขวา พร้อมกับผายมือขวาในลักษณะหงายมือออกไปข้างหน้า มือซ้ายแนบตรงหน้าอก <br>
+                    2. ค่อยๆ สืบเท้าขวาไปข้างหน้า พร้อมกับร่ายมือวาดสลับเปลี่ยนมือไปข้างหน้า ( เช่น เมื่อจังหวะแรกสืบเท้าขวาไปข้างหน้า มือจะเปลี่ยนสลับเป็นมือซ้ายไปข้างหน้า เป็นต้น ) ทำแบบนี้ 2 ครั้ง สลับเท้าและแขน ไปอยู่ตรงหน้ามีดของตน <br>
+                    3. หยิบมีดด้วยมือขวา จากนั้นลุกขึ้นและถอยหลังทีละก้าว โดยเริ่มจากก้าวเท้าซ้ายก่อนพร้อมกับยกมีดขึ้นไปเฉียงด้านหลังประมาณ 60 องศา ทางด้านหลังของตนและค้างไว้ มือซ้ายยกป้องกันตน จกานั้นก้าวไปข้างหลังจนครบ 3 ก้าว ( เมื่อก้าวจนครบ เท้าขวาจะอยู่ด้านหน้า)
+
+
+                </p>
+                <hr>
 
                 <div class="row">
                     <div class="col"></div>
@@ -101,21 +117,25 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
+                <h3><code><strong> Jurus 8 </strong></code></h3>
                 <p>
-                    Make sure to keep all page content within the
-                    <code>#page-content-wrapper</code>
-                    The top navbar is optional, and just for demonstration. Just create an element with the
-                    <code>#sidebarToggle</code>
-                    ID which will toggle the menu when clicked. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reiciendis labore provident minus ratione fugit magni vitae maiores nobis totam quaerat velit, enim tenetur laudantium inventore eaque. Molestiae, minima cupiditate?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta impedit illo reiciendis quisquam deserunt accusamus eum perferendis hic amet quia at, ratione minus eaque similique, sequi delectus sit placeat error quas voluptate adipisci ut? Blanditiis nobis itaque magnam. Officiis totam omnis fugit. Animi voluptas debitis nesciunt excepturi eum sint natus maiores quaerat tempora distinctio cumque rem, sit possimus dolorem. Molestiae provident natus ea illo unde tempora porro dignissimos qui expedita? Inventore quod ipsum, perspiciatis unde iure ducimus vel quam, obcaecati similique id repellat, accusamus eos provident corporis? At voluptatem minus sit magni, cum, aperiam quasi earum iure exercitationem natus dignissimos.
+ 
+                    1. ยกเข่าขวาขึ้น พร้อมกับวาดมีดมาทางหน้าอกของตน จากนั้นวางเท้าขวาไปด้านหลัง แล้วฟันมีดไปทางด้านขวา เยื้องหลังตรงตำแหน่งบริเวณช่วงคอคู่ต่อสู้ <br>
+                    2. บิดตัวกลับมาข้างหน้า พร้อมกับวาดมือทั้งสองข้างมาทางตรงหน้าตน ให้มือถือมีดฟันไปตรงตำแหน่งหน้าอก มือซ้ายป้องกันตน <br>
+                    3. สืบเท้าขวามาข้างหน้า จากนั้นตามด้วยเท้าซ้ายแล้วบิดตัวหันไปทางด้านขวาตน แล้วยกเข่าขวาขึ้น <br>
+                    4. วางเท้าขวาลงทางข้างหน้า ผายแขนทั้งสองข้างออกไปทางด้านข้างตน จากนั้นยกเข่าขวาขึ้น มือถือมีดง้างถอยมาข้างหลังพร้อมที่จะแทง <br>
+                    5. วางเท้าขวาลงนำหน้า มือถือมีดแทงทางคู่ต่อสู้ออกไปข้างหน้า ตรงบริเวณคอ <br>
+                    6. ก้าวเท้าซ้ายไปข้างหน้า จากนั้นหมุนตัวมาทางข้างหน้า เท้าทั้งสองข้างขนานเท่ากันคล้ายท่าขี่ม้า จากนั้นกางแขนสองข้างออกข้างลำตัว <br>
+                    7. ยกเข่าขวาขึ้นข้างหน้าลำตัว วาดมือทั้งสองข้างให้มือซ้ายชี้ขึ้นบนฟ้า มือขวาให้ปลายมีดชี้ลงพื้นข้างเข่าขวา
                 </p>
+                <hr>
 
                 <div class="container">
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                                <iframe src="https://www.youtube.com/embed/UHLE9zLPFv4" title="ปันจักสีลัต/สาธิตการร่ายรำTunggal (แยกเป็นทีล่ะบท)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  src="https://www.youtube.com/embed/BlenqrCMa7w" title="Interval 7 8 and Jurus 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
