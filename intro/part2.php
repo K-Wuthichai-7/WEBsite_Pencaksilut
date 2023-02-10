@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       body {
-            background:#000;
+      body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+           background-color: #e0dfdc;
         }
 
     </style>
@@ -46,24 +56,24 @@ if (!isset($_SESSION['user_login'])) {
         ?>
 
         <!-- Sidebar-->
-        <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="border-end bg-deep" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light text-center text-black">บทเรียน</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part5.php">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part6.php">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part7.php">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part8.php">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part9.php">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part10.php">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part11.php">ตอนที่ 11</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="../user.php">หน้าแรก</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part1.php">ตอนที่ 1</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part2.php">ตอนที่ 2</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part3.php">ตอนที่ 3</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part4.php">ตอนที่ 4</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part5.php">ตอนที่ 5</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part6.php">ตอนที่ 6</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part7.php">ตอนที่ 7</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part8.php">ตอนที่ 8</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part9.php">ตอนที่ 9</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part10.php">ตอนที่ 10</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part11.php">ตอนที่ 11</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part12.php">ตอนที่ 12</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part13.php">ตอนที่ 13</a>
+                <a class="list-group-item list-group-item-action bg-deep p-3" href="part14.php">ตอนที่ 14</a>
             </div>
         </div>
         <!-- Page content wrapper-->

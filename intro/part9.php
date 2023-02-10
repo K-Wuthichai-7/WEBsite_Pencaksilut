@@ -25,11 +25,20 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       body {
-            background:#000;
+        body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
         }
 
+        .bg-deep {
+            background-color: #e0dfdc;
+        }
     </style>
 </head>
 
@@ -127,7 +136,7 @@ if (!isset($_SESSION['user_login'])) {
                     5. ก้าวเท้าซ้ายไปข้างหน้า แล้วบิดหมุนลำตัว 1 รอบตนเอง ( 360 องศา ) ไปทางขวา แล้วนั่งลงโดยขาซ้ายวางพื้นงอเข่ามาขนานกับตัว ขาขวาวางเหนือขาซ้ายคล้ายกับท่านั่งสมาธิ แต่ขาขวาไม่สัมผัสกับขาซ้าย มือทั้งสองข้างกางแขนออกข้างลำตัว <br>
                     6. เอี้ยวตัวไปทางด้านขวา ให้ขาขวาแนบกับพื้น มือขวาถือมีดวางบนพื้น ขาซ้ายเหยียดตรงวางเท้ากับพื้น มือซ้ายยกขึ้นป้องกันตนเหนือศรีษะ <br>
                     7. จากนั้นลุกขึ้น ให้เท้าซ้ายอยู่ข้างหน้า ตัวเฉียงเล็กน้อย มือซ้ายยื่นมือป้องไปข้างหน้า มือขวาใข้นิ้วกลับมีดให้กลับด้าน (ตัวมีดอยู่ด้านล่าง) แล้วแทงออกไปทางข้างหน้า ในขณะเดียวกันมือซ้ายดึงกลับมาป้องกันตนที่หน้าอก <br>
-                    8. มือขวาพลิกมีดให้ใบมีดกลับมาอยู่ด้านบน จากนั้นชี้มีดไปข้างหน้า เฉียง 45 องศา เหนือศรีษะ ในขณะมือซ้ายกำหมัดชี้ไปข้างหน้าขนานกับมือขวาด้วย จากนั้นยกเข่าขวาขี้น แล้วดึงมือทั้งสองให้มาอยู่เหนือเข่า โดยให้มือขวาปลายมีดชี้ขึ้นฟ้า มือซ้ายกำหมัดหลังมือชี้ฟ้า 
+                    8. มือขวาพลิกมีดให้ใบมีดกลับมาอยู่ด้านบน จากนั้นชี้มีดไปข้างหน้า เฉียง 45 องศา เหนือศรีษะ ในขณะมือซ้ายกำหมัดชี้ไปข้างหน้าขนานกับมือขวาด้วย จากนั้นยกเข่าขวาขี้น แล้วดึงมือทั้งสองให้มาอยู่เหนือเข่า โดยให้มือขวาปลายมีดชี้ขึ้นฟ้า มือซ้ายกำหมัดหลังมือชี้ฟ้า
 
                 </p>
                 <hr>
@@ -136,30 +145,32 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                            <iframe  src="https://www.youtube.com/embed/vJV8j1W2a0Q" title="Interval 8 9 and Jurus 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/vJV8j1W2a0Q" title="Interval 8 9 and Jurus 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part8.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">9</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part10.php">10</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part11.php">11</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part10.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part8.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">9</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part10.php">10</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part11.php">11</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part10.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

@@ -4703,6 +4703,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {
@@ -5077,16 +5078,16 @@ textarea.form-control-lg {
   width: 100%;
   color: #495057;
   text-align: inherit;
+  
 }
 .list-group-item-action:hover, .list-group-item-action:focus {
-  z-index: 1;
-  color: #495057;
-  text-decoration: none;
-  background-color: #f8f9fa;
+  background-image: linear-gradient( 172.6deg,  rgba(21,13,15,1) 17.6%, rgba(84,84,84,1) 98.6% );
+  box-shadow: 0px 10px 20px rgba(168, 25, 168, 1);
+  color: #fff !important;
+  transform: translateY(-7px);
 }
 .list-group-item-action:active {
-  color: #212529;
-  background-color: #e9ecef;
+  transform: translateY(-1px);
 }
 
 .list-group-item {

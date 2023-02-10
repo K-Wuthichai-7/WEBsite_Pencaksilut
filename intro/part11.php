@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       body {
-            background:#000;
+        body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -119,11 +129,11 @@ if (!isset($_SESSION['user_login'])) {
                 <p>
 
                     1. ก้าวเท้าขวาเฉียงไปทางซ้าย 45 องศา พร้อมกับโจมตีคู่ต่อสู้ที่ศรีษะด้วยการฟาดไม้ โดยฟาดจากท้ายของไม้ไปข้างหน้า (มือขวาที่จับ) <br>
-                    2. ถอยเท้าขวามา 1 ก้าว เปลี่ยนการจับไม้เป็นแบบคว่ำมือทั้งคู่ แล้วยกขึ้นป้องกันเหนือศรีษะ  <br>
+                    2. ถอยเท้าขวามา 1 ก้าว เปลี่ยนการจับไม้เป็นแบบคว่ำมือทั้งคู่ แล้วยกขึ้นป้องกันเหนือศรีษะ <br>
                     3. หมุนตัว 1 รอบ ( 360 องศา ) โดยหมุนไปทางขวา ใช้เท้าซ้ายวางเป็นจุดหมุน เมื่อหมุนมา 1 รอบ เท้าขวาจะอยู่นำหน้า จากนั้นใช้ไม้แทงคู่ต่อสู้ไปข้างหน้า <br>
                     4. หมุนตัวกลับหลังหัน โดยหมุนไปทางด้านซ้าย จากนั้นนั่งคุกเข่าลงให้เข่าซ้ายตั้งพื้น แล้วฟาดไม้โจมตีบริเวณช่วงล่างขาของคู่ต่อสู้ โดยฟาดจากด้านขวา <br>
                     5. หมุนไม้พลองไปไว้ด้านหลังของตน โดยหมุนไปทางด้านซ้าย คล้ายกับดาบที่สะพายหลัง มือขวาจับไม้ด้านบน มือซ้ายจับด้านล่างไม้ <br>
-                    6. จากนั้นลุกขึ้น ก้าวเท้าขวาไปข้างหน้า หมุนตัวกลับหลังหันไปทางซ้าย วางเท้าขวาลง ยกเข่าซ้ายขึ้น หมุนตัวกลับหลังหัน ไปทางซ้ายอีกครั้ง ( เมื่อทำต่อเนื่องจะเป็นลักษณะหมุนตัว 360 องศา ) เลื่อนมือซ้ายมาจับไม้ที่ข้างล่างมือขวา แล้วฟาดไม้ลงไปกับพื้น ขาทั้งสองกางพอประมาณระดับหัวไหล่  <br>
+                    6. จากนั้นลุกขึ้น ก้าวเท้าขวาไปข้างหน้า หมุนตัวกลับหลังหันไปทางซ้าย วางเท้าขวาลง ยกเข่าซ้ายขึ้น หมุนตัวกลับหลังหัน ไปทางซ้ายอีกครั้ง ( เมื่อทำต่อเนื่องจะเป็นลักษณะหมุนตัว 360 องศา ) เลื่อนมือซ้ายมาจับไม้ที่ข้างล่างมือขวา แล้วฟาดไม้ลงไปกับพื้น ขาทั้งสองกางพอประมาณระดับหัวไหล่ <br>
 
                 </p>
 
@@ -132,30 +142,32 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                            <iframe  src="https://www.youtube.com/embed/qYiwK2AIOgM" title="Interval10 11 and Jurus11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/qYiwK2AIOgM" title="Interval10 11 and Jurus11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part10.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">11</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part13.php">13</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part12.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part10.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">11</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part13.php">13</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part12.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

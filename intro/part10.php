@@ -26,8 +26,18 @@ if (!isset($_SESSION['user_login'])) {
 
     <style>
         body {
-            background:#000;
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -102,7 +112,7 @@ if (!isset($_SESSION['user_login'])) {
                 <h3><code>Interval 9-10</code> </h3>
                 <p>
 
-                    1. วางเท้าขวาลงพื้น ก้าวเท้าซ้ายไปข้างหน้าแล้วนั่งคุกเข่าลงแต่ไม่ต้องให้สะโพกติดกับส้นเท้า เข่าซ้ายตั้งขึ้น  <br>
+                    1. วางเท้าขวาลงพื้น ก้าวเท้าซ้ายไปข้างหน้าแล้วนั่งคุกเข่าลงแต่ไม่ต้องให้สะโพกติดกับส้นเท้า เข่าซ้ายตั้งขึ้น <br>
                     2. มือทั้งสองข้างวาดร่ายให้มือขวาลงล่าง มือซ้ายอยู่ข้างบนมือชี้ฟ้า
 
 
@@ -118,7 +128,7 @@ if (!isset($_SESSION['user_login'])) {
                 <h3><code><strong> Jurus 10 </strong></code></h3>
                 <p>
 
-                    1. ยกเท้าขวามาวางขนานเท้าซ้าย จากนั้นสืบเท้าขวาไปด้านข้าง แล้วหันตัวไปทางด้านขวา มือซ้ายป้องกัน มือขวาฟันมีดไปข้างหน้า  <br>
+                    1. ยกเท้าขวามาวางขนานเท้าซ้าย จากนั้นสืบเท้าขวาไปด้านข้าง แล้วหันตัวไปทางด้านขวา มือซ้ายป้องกัน มือขวาฟันมีดไปข้างหน้า <br>
                     2. บิดตัวและก้าวเท้าขวาไปด้านหลัง โดยบิดไปทางซ้าย และก้าวเท้าขวาไปข้างหน้าแต่ให้ก้าวไปทางด้านหลังของตน พร้อมกับผายมือออก มือขวาลงล่าง มือซ้ายชี้ขึ้นบน <br>
                     3. บิดตัวไปทางด้านซ้ายของตน ซึ่งเท้าซ้ายจะอยู่ข้างหน้า มือขวาฟันมีดลงล่าง มือซ้ายยกขึ้นป้องกัน <br>
                     4. ก้าวเท้าซ้ายถอยไปข้างหลัง แล้วผายแขนออกทั้งสองข้างขนานลำตัว <br>
@@ -147,24 +157,26 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                     </div>
 
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part9.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part11.php">11</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part11.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part9.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">10</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part11.php">11</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part12.php">12</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part11.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

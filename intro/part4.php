@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-        body {
-            background:#000;
+       body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+           background-color: #e0dfdc;
         }
      
     </style>

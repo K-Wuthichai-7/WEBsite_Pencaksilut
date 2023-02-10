@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-      body {
-            background:#000;
+        body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -119,7 +129,7 @@ if (!isset($_SESSION['user_login'])) {
 
                 <h3><code><strong> Jurus 8 </strong></code></h3>
                 <p>
- 
+
                     1. ยกเข่าขวาขึ้น พร้อมกับวาดมีดมาทางหน้าอกของตน จากนั้นวางเท้าขวาไปด้านหลัง แล้วฟันมีดไปทางด้านขวา เยื้องหลังตรงตำแหน่งบริเวณช่วงคอคู่ต่อสู้ <br>
                     2. บิดตัวกลับมาข้างหน้า พร้อมกับวาดมือทั้งสองข้างมาทางตรงหน้าตน ให้มือถือมีดฟันไปตรงตำแหน่งหน้าอก มือซ้ายป้องกันตน <br>
                     3. สืบเท้าขวามาข้างหน้า จากนั้นตามด้วยเท้าซ้ายแล้วบิดตัวหันไปทางด้านขวาตน แล้วยกเข่าขวาขึ้น <br>
@@ -135,30 +145,32 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                            <iframe  src="https://www.youtube.com/embed/BlenqrCMa7w" title="Interval 7 8 and Jurus 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/BlenqrCMa7w" title="Interval 7 8 and Jurus 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part7.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">8</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part9.php">9</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part10.php">10</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part9.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part7.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">8</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part9.php">9</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part10.php">10</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part9.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

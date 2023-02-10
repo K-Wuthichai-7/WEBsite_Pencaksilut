@@ -26,8 +26,18 @@ if (!isset($_SESSION['user_login'])) {
 
     <style>
         body {
-            background:#000;
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -98,11 +108,11 @@ if (!isset($_SESSION['user_login'])) {
             <!-- Page content-->
             <!-- Page content-->
             <div class="container">
-            <h1 class="mt-4 text-center text-white"><strong> JURUS 5</strong></h1>
+                <h1 class="mt-4 text-center text-white"><strong> JURUS 5</strong></h1>
                 <h3><code>Interval 4-5</code> </h3>
                 <p>
                     1. การเท้าขวามาข้างหน้า พร้อมกับวาดมือทั้งสองข้าง ให้มือซ้ายแบมือหงายยื่นไปข้างหน้า มือขวาแบมือหันไปข้างหน้าแนบข้างลำตัว <br>
-                    2. ก้าวเท้าซ้ายมาข้างหน้า มือขวากำหมัดหงายมาข้างหน้า มือซ้ายแบมือป้องกันใบหน้า  
+                    2. ก้าวเท้าซ้ายมาข้างหน้า มือขวากำหมัดหงายมาข้างหน้า มือซ้ายแบมือป้องกันใบหน้า
                 </p>
                 <hr>
 
@@ -112,45 +122,51 @@ if (!isset($_SESSION['user_login'])) {
                     <div class="col"></div>
                 </div>
 
-                <h3><code><strong>  Jurus 5 </strong></code></h3>
+                <h3><code><strong> Jurus 5 </strong></code></h3>
                 <p>
-                    1. ก้าวเท้าขวามาข้างหน้า ยื่นมามือขวาไปข้างหน้าเหนือศรีษะ มือขวาทำในลักษณะงอข้อมือทั้ง 5 นิ้ว คล้ายกรงเล็บเสือ มือซ้ายยกขึ้นป้องกันใบหน้า  <br>
-                    2. ดึงมือขวากลับมาที่ลำตัว  จากนั้นมือทั้งสองข้างวาดมือ มาในลักษณะร่ายรำวนช่วงแขน เปลี่ยนมือขวาเป็นแบมือป้องกันบริเวณใบหน้า มือซ้ายกำหมัดวาดเข้ามาในลักษระหงายมือบริเวณ แถวหน้าท้อง พร้อมกับสืบเท้ากลับมาทางด้านหลัง <br>
-                    3. ให้ขาทั้งสองข้างห่างกันประมาณ 1 ช่วงไหล่ หันลำตัวทางข้างขวาไปด้านหน้า ยกมือขวากำหมัดป้องกันข้างหน้าของตนเอง มือซ้ายแบมือแนบข้างลำตัว  <br>
-                    4. สืบเท้าซ้ายเข้ามาชิดกับเท้าขวาเหมือนชิดเท้ายืนตรง มือขวาวาดออกไปเพื่อฟันสับคอคู่ต่อสู้ออกไปตรงๆ  <br>
+                    1. ก้าวเท้าขวามาข้างหน้า ยื่นมามือขวาไปข้างหน้าเหนือศรีษะ มือขวาทำในลักษณะงอข้อมือทั้ง 5 นิ้ว คล้ายกรงเล็บเสือ มือซ้ายยกขึ้นป้องกันใบหน้า <br>
+                    2. ดึงมือขวากลับมาที่ลำตัว จากนั้นมือทั้งสองข้างวาดมือ มาในลักษณะร่ายรำวนช่วงแขน เปลี่ยนมือขวาเป็นแบมือป้องกันบริเวณใบหน้า มือซ้ายกำหมัดวาดเข้ามาในลักษระหงายมือบริเวณ แถวหน้าท้อง พร้อมกับสืบเท้ากลับมาทางด้านหลัง <br>
+                    3. ให้ขาทั้งสองข้างห่างกันประมาณ 1 ช่วงไหล่ หันลำตัวทางข้างขวาไปด้านหน้า ยกมือขวากำหมัดป้องกันข้างหน้าของตนเอง มือซ้ายแบมือแนบข้างลำตัว <br>
+                    4. สืบเท้าซ้ายเข้ามาชิดกับเท้าขวาเหมือนชิดเท้ายืนตรง มือขวาวาดออกไปเพื่อฟันสับคอคู่ต่อสู้ออกไปตรงๆ <br>
                     มือซ้ายกำหมัดแนบไว้ข้างลำตัว ศรีษะหันตามไปทางด้านเดียวกับมือขวาที่ฟันคอ
 
                 </p>
                 <hr>
                 <div class="container">
+
+                    <!-- video -->
                     <div class="row">
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                            <iframe  src="https://www.youtube.com/embed/1u7JeZfZ33g" title="Interval 4 5 and Jurus 5" ></iframe>
+                                <iframe src="https://www.youtube.com/embed/1u7JeZfZ33g" title="Interval 4 5 and Jurus 5"></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+
+                    <!-- //back - next -->
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part4.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part6.php">6</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part7.php">7</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part6.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part4.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part6.php">6</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part7.php">7</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part6.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

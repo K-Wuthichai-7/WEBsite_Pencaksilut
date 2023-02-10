@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       body {
-            background:#000;
+        body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -117,15 +127,15 @@ if (!isset($_SESSION['user_login'])) {
 
                 <h3><code><strong> Jurus 6 </strong></code></h3>
                 <p>
-                    
+
                     1. ยื่นมือขวาไปข้างหน้า มือซ้ายตั้งมือป้องกันบริเวณหน้าอก <br>
-                    2. บิดลำตัวย้อนกลับมาทางด้านหลัง โดยที่เท้าทั้ง 2 ข้างอยู่กับที่ และมือขวายังอยู่ในตำแหน่งเดิมแต่เปลี่ยนเป็นกำมือแทน  <br>
+                    2. บิดลำตัวย้อนกลับมาทางด้านหลัง โดยที่เท้าทั้ง 2 ข้างอยู่กับที่ และมือขวายังอยู่ในตำแหน่งเดิมแต่เปลี่ยนเป็นกำมือแทน <br>
                     3. หมุนตัวกลับไปทางเดิม จากนั้นยกเข่าขวาขึ้น มือขวาเหยียดไปทางด้านหลังแบมือ มือซ้ายยกขึ้นเหนือศรีษะเล็กน้อย โดยให้นิ้วมือซ้ายชี้ไปทางด้านหลัง ศรีษะมองไปทางด้านหลัง <br>
-                    4. ใช้เท้าซ้ายดีดตัวในลักษณะกระโดดเล็กน้อยพอประมาณ เพื่อกลับหลังหันไปข้างหลัง หลังจากนั้นเท้าทั้งสองข้างวางบนพื้น ให้เท้าซ้ายนำหน้าเท้าเล็กน้อย ระยะห่างประมาณ 1 ช่วงไหล่  <br>
+                    4. ใช้เท้าซ้ายดีดตัวในลักษณะกระโดดเล็กน้อยพอประมาณ เพื่อกลับหลังหันไปข้างหลัง หลังจากนั้นเท้าทั้งสองข้างวางบนพื้น ให้เท้าซ้ายนำหน้าเท้าเล็กน้อย ระยะห่างประมาณ 1 ช่วงไหล่ <br>
                     5. ใช้มือซ้ายพลิกหลังมือไปด้านขวา ยื่นออกไปพอประมาณคล้ายจับตัวคู่ต่อสู้ จากนั้นยื่นมือขวาออกไปข้างหน้าให้สุด ยกขึ้นเหนือศรีษะประมาณมุม 60 องศา จากศรีษะ โดยให้มือทั้งสองข้างงุ้มมือคล้ายทำท่าเลียนแบบเหมือนมือของเสือ <br>
                     6. จากนั้นกระชากมือทั้งสองลงมา ให้อยู่ในระดับหน้าอกของตนเอง <br>
-                    7. กวาดมือขวาลงล่าง แบมือ อยู่บริเวณหน้าอวัยวะเพศ กวาดมือซ้ายขึ้นบนแนบบริเวณหน้าอก แบมือ จากนั้นยกเข่าขวาขึ้น และเตะกดลงไปบริเวณข้อพับขาของคู่ต่อสู้  <br>
-                    8. วางเท้าขวาลงพื้นให้เท้าขวานำเล็กน้อย เหยียดแขนทั้งสองข้างออกไปทางด้านขวาบน โดยให้แขนซ้ายงอแนบบริเวณหน้าอก มือทั้งสองแบบมือ  <br>
+                    7. กวาดมือขวาลงล่าง แบมือ อยู่บริเวณหน้าอวัยวะเพศ กวาดมือซ้ายขึ้นบนแนบบริเวณหน้าอก แบมือ จากนั้นยกเข่าขวาขึ้น และเตะกดลงไปบริเวณข้อพับขาของคู่ต่อสู้ <br>
+                    8. วางเท้าขวาลงพื้นให้เท้าขวานำเล็กน้อย เหยียดแขนทั้งสองข้างออกไปทางด้านขวาบน โดยให้แขนซ้ายงอแนบบริเวณหน้าอก มือทั้งสองแบบมือ <br>
                     9. เลื่อนเท้าซ้ายเขามาให้ใกล้กับลำตัว แต่ให้นำหน้าเท้าขวา นำมือทั้งสองข้างเคลื่อนมาป้องกันตนเอง โดยให้มือซ้ายนำหน้า มือขวาแนบหน้าอก โดยให้ทิศทางของตัวอยู่ทางด้านซ้าย เมื่อมองจากข้างหน้า
 
 
@@ -143,24 +153,26 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                     </div>
 
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part5.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">6</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part7.php">7</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part8.php">8</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part7.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part5.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">6</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part7.php">7</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part8.php">8</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part7.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->

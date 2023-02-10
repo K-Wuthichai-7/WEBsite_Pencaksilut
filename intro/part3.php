@@ -26,10 +26,19 @@ if (!isset($_SESSION['user_login'])) {
 
     <style>
        body {
-            background:#000;
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
         }
 
+        .bg-deep {
+           background-color: #e0dfdc;
+        }
 
     </style>
 </head>

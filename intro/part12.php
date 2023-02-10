@@ -25,9 +25,19 @@ if (!isset($_SESSION['user_login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-       body {
-            background:#000;
+        body {
+            /* The image used */
+            background-image: url("../img/black-gradient.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #fff;
+
+        }
+
+        .bg-deep {
+            background-color: #e0dfdc;
         }
     </style>
 </head>
@@ -126,7 +136,7 @@ if (!isset($_SESSION['user_login'])) {
                     4. เหวี่ยงไม้เหนือข้ามศรีษะในลักษณะวนไปด้านหลังผ่านเหนือศรีษะไปทางซ้าย แล้วฟาดไปข้างหน้าจากทางซ้าย <br>
                     5. ขยับเท้าขวามาชิดเท้าซ้าย แล้วก้าวขาขวามาข้างหน้า เหวี่ยงไม้ข้ามศรีษะะตามข้อ 4 แต่ให้วนไปด้านหลังทางขวา ( ทิศทางตรงกันข้ามกับข้อ 4 ) จากนั้นดึงไม้ไปทางด้านหลังเตรียมกระทุ้งทางข้างลำตัวด้านซ้าย <br>
                     6. กระทุ้งไม้ไปข้างหน้าเพื่อโจมตีคู่ต่อสู้ จากนั้นหันข้างมาทางด้านซ้ายของตนเอง ยกเข่าขวาขึ้น เหวี่ยงไม้มือขวาไปข้างหน้า แล้วเหวี่ยงไม้มือซ้ายไปข้างหน้าพร้อมกับดึงไม้ฝั่งมือขวาเข้ามาชิดข้างลำตัวทางขวา <br>
-                    7. ก้าวเท้าขวาไปทางขวา จากนั้นเหวี่ยงไม้หมุนรอบวงกลม โดยหมุนไปทางขวาเหนือศรีษะ แล้วปล่อยมือซ้ายจากไม้ออกยกขึ้นป้องกันตน มือขวาเลื่อนมาจับไม้ช่วงกลางของไม้ ให้นิ้วชี้ชี้ลงไปที่พื้นข้างลำตัวด้านขวา เฉียงลงประมาณ 45 องศา 
+                    7. ก้าวเท้าขวาไปทางขวา จากนั้นเหวี่ยงไม้หมุนรอบวงกลม โดยหมุนไปทางขวาเหนือศรีษะ แล้วปล่อยมือซ้ายจากไม้ออกยกขึ้นป้องกันตน มือขวาเลื่อนมาจับไม้ช่วงกลางของไม้ ให้นิ้วชี้ชี้ลงไปที่พื้นข้างลำตัวด้านขวา เฉียงลงประมาณ 45 องศา
 
 
                 </p>
@@ -136,30 +146,32 @@ if (!isset($_SESSION['user_login'])) {
                         <div class="col"></div>
                         <div class="col-md-7">
                             <div class="ratio ratio-16x9 ">
-                            <iframe  src="https://www.youtube.com/embed/SDNg3ZbcUxo" title="Interval11 12 and Jurus12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/SDNg3ZbcUxo" title="Interval11 12 and Jurus12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
+
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" href="../intro/part11.php" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part5.php">13</a></li>
+                            <li class="page-item"><a class="page-link" href="../intro/part6.php">14</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="../intro/part13.php">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example ">
-        <ul class="pagination justify-content-end">
-            <li class="page-item ">
-                <a class="page-link" href="../intro/part11.php" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">12</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part5.php">13</a></li>
-            <li class="page-item"><a class="page-link" href="../intro/part6.php">14</a></li>
-            <li class="page-item">
-                <a class="page-link" href="../intro/part13.php">Next</a>
-            </li>
-        </ul>
-    </nav>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
