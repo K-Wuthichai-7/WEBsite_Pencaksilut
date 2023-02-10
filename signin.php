@@ -73,7 +73,7 @@
                     <button type="submit" name="signin" class="btn btn-primary mt-3" style="width:100% ;">Sign In</button>
                 </form>
                 <hr>
-                <p> คลิ๊กที่นี่เพื่อ <a href="index.php">สมัครสมาชิก</a></p>
+                <p> คลิ๊กที่นี่เพื่อ <a href="register.php">สมัครสมาชิก</a></p>
             </div>
             <div class="col"></div>
 
