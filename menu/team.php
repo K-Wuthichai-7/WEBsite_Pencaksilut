@@ -118,7 +118,7 @@ require_once '../config/db.php';
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
                 <div class="navbar-nav  ">
-                    <a class="nav-link active h4" aria-current="page" href="../home.php">Home</a>
+                    <a class="nav-link active h4" aria-current="page" href="../index.php">Home</a>
                     <a class="nav-link active h4" href="about.php">About</a>
                     <a class="nav-link active h4" href="#">Team</a>
                     <a class="nav-link active h4" href="contact.php">Contact</a>

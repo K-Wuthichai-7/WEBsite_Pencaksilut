@@ -13,7 +13,7 @@ require_once 'config/db.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>คอร์สเรียนออนไลน์</title>
+    <title>ท่ารำ ปันจักสีลัต (ประเภทเดี่ยว)</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -29,17 +29,17 @@ require_once 'config/db.php';
 <body>
     <!-- Background Video-->
     <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="home/video/Silut p..mp4" type="video/mp4" />
+        <source src="./home/video/Silut p..mp4" type="video/mp4" />
     </video>
     <!-- Masthead-->
     <div class="masthead">
         <div class="masthead-content text-white">
             <div class="container-fluid px-4 px-lg-0">
                 <h1 class="fst-italic lh-1 mb-4 text-danger">คอร์สออนไลน์ ฟรี</h1>
-                <h2 class="fst-italic lh-1 mb-4">ท่ารำ ปันจักสีลัต </h2>
+                <h2 class="fst-italic lh-1 mb-4">ท่ารำ ปันจักสีลัต (ประเภทเดี่ยว)</h2>
                 <p class="mb-5 fs-6"> ปันจักสีลัต (Pencak Silat) เป็นคำที่มาจากภาษาอินโดนีเซียมาจากคำว่า ปันจัก (Pencak) หมายถึงการป้องกันตนเอง และคำว่า สีลัต(Silat) หมายถึงศิลปะ รวมความแล้วหมายถึงศิลปะการป้องกันตนเอง <button class="btn btn-light  "><a href="https://www.thaipbs.or.th/news/content/315406" target="_blank">อ่านเพิ่มเติม </a> </button></p> 
 
-                <a class="btn btn-primary fs-3" href="/php-register/signin.php"> เข้าสู่บทเรียน </a>
+                <a class="btn btn-primary fs-3" href="./signin.php"> เข้าสู่บทเรียน </a>
 
             </div>
         </div>
