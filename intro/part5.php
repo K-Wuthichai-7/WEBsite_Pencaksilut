@@ -17,27 +17,20 @@ if (!isset($_SESSION['user_login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Pencak Silat</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/sidebars.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <style>
         body {
-            /* The image used */
-            background-image: url("../img/black-gradient.jpg");
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: #fff;
-
-        }
-
-        .bg-deep {
-            background-color: #e0dfdc;
+            color: white;
+            margin: 0;
+            text-shadow: 8px 8px 10px #0000008c;
+            background-color: #343a40;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
         }
     </style>
 </head>
@@ -57,23 +50,10 @@ if (!isset($_SESSION['user_login'])) {
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light text-center text-black ">บทเรียน</div>
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../user.php">หน้าแรก</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part1.php">ตอนที่ 1</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part2.php">ตอนที่ 2</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part3.php">ตอนที่ 3</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part5.php">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part6.php">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part7.php">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part8.php">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part9.php">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part10.php">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part11.php">ตอนที่ 11</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part12.php">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part13.php">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="part14.php">ตอนที่ 14</a>
-            </div>
+
+            <!-- sidebar-component -> sidebar.js -->
+            <sidebar-component></sidebar-component>
+
         </div>
         <!-- Page content wrapper-->
         <div id="page-content-wrapper">
@@ -118,7 +98,7 @@ if (!isset($_SESSION['user_login'])) {
 
                 <div class="row">
                     <div class="col"></div>
-                    <div class="col-lg-5"><img src="../img/5.jpg" class="img-thumbnail" alt="#"></div>
+                    <div class="col-lg-5"><img src="../img/5.jpg" class="img-thumbnail bg-black" alt="#"></div>
                     <div class="col"></div>
                 </div>
 
@@ -137,7 +117,7 @@ if (!isset($_SESSION['user_login'])) {
                     <!-- video -->
                     <div class="row">
                         <div class="col"></div>
-                        <div class="col-md-7">
+                        <div class="col-md-7  img-thumbnail bg-black">
                             <div class="ratio ratio-16x9 ">
                                 <iframe src="https://www.youtube.com/embed/1u7JeZfZ33g" title="Interval 4 5 and Jurus 5"></iframe>
                             </div>
@@ -171,6 +151,9 @@ if (!isset($_SESSION['user_login'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- link sidebar-component -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/sidebars.js"></script>
 </body>
 
 </html>

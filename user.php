@@ -18,29 +18,15 @@ if (!isset($_SESSION['user_login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Pencak Silat</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="intro/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/sidebars.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <style>
-        body {
-            /* The image used */
-            background-image: url("./img/black-gradient.jpg");
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: #fff;
 
-        }
-
-        .bg-deep {
-            background-color: #f8f9fa;
-        }
-    </style>
 
 </head>
 
@@ -57,26 +43,9 @@ if (!isset($_SESSION['user_login'])) {
         ?>
 
         <!-- Sidebar-->
-        <div class="border-end bg-deep" id="sidebar-wrapper">
+        <div class="border-end bg-light" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light text-center text-black ">บทเรียน</div>
-            <div class="list-group list-group-flush text-white">
-                <a class="list-group-item list-group-item-action bg-deep p-3 " href="#">หน้าแรก</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3 " href="intro/part1.php">ตอนที่ 1</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part2.php">ตอนที่ 2</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part3.php">ตอนที่ 3</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part4.php">ตอนที่ 4</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part5.php">ตอนที่ 5</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part6.php">ตอนที่ 6</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part7.php">ตอนที่ 7</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part8.php">ตอนที่ 8</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part9.php">ตอนที่ 9</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part10.php">ตอนที่ 10</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part11.php">ตอนที่ 11</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part12.php">ตอนที่ 12</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part13.php">ตอนที่ 13</a>
-                <a class="list-group-item list-group-item-action bg-deep p-3" href="intro/part14.php">ตอนที่ 14</a>
-
-            </div>
+            <sidebar-user-component></sidebar-user-component>
         </div>
         <!-- Page content wrapper-->
         <div id="page-content-wrapper">
@@ -115,17 +84,17 @@ if (!isset($_SESSION['user_login'])) {
             <div class="accordion accordion-flush " id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed  bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                               <h6><strong><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                            </svg> &nbsp; &nbsp; ประวัติความเป็นมา </strong></h6> 
-                             </button>
+                        <button class="accordion-button collapsed  bg-secondary bg-gradient text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h6><strong><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg> &nbsp; &nbsp; ประวัติความเป็นมา </strong></h6>
+                        </button>
 
                     </h2>
 
 
 
-                    <div id="flush-collapseOne" class="accordion-collapse collapse bg-black " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse  " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body ">
                             <div class="row">
                                 <div class="col"></div>
@@ -176,7 +145,7 @@ if (!isset($_SESSION['user_login'])) {
                     <!-- slider -->
                     <div class="row">
                         <div class="col"></div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-7 img-thumbnail bg-black">
                             <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -195,7 +164,7 @@ if (!isset($_SESSION['user_login'])) {
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="4000">
+                                    <div class="carousel-item active" data-bs-interval="1000">
                                         <img src="img/1.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h1> <code>SET 1</code></h1>
@@ -329,6 +298,8 @@ if (!isset($_SESSION['user_login'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="intro/js/scripts.js"></script>
+    <script src="intro/js/sidebar.js"></script>
+    <script src="intro/js/sidebars.js"></script>
 </body>
 
 </html>
